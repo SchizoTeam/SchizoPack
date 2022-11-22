@@ -1,7 +1,5 @@
-- name: Zip Release
-  uses: TheDoctor0/zip-release@0.6.2
-
 name: Create Archive
+uses: TheDoctor0/zip-release@0.6.2
 on: [push]
 jobs:
   build:
