@@ -1,0 +1,13 @@
+vines,models/players/great_pumpkin/vines.tga
+hair,models/players/great_pumpkin/vines.tga
+body,models/players/great_pumpkin/vines.tga
+l_arm,models/players/great_pumpkin/vines.tga
+r_arm,models/players/great_pumpkin/vines.tga
+l_arm_bush,models/players/great_pumpkin/grass.tga
+r_arm_bush,models/players/great_pumpkin/grass.tga
+l_leg_bush,models/players/great_pumpkin/grass.tga
+r_leg_bush,models/players/great_pumpkin/grass.tga
+head,models/players/great_pumpkin/pumpkinx.tga
+head_eyes,models/players/great_pumpkin/eyes.tga
+head_teeth,models/players/great_pumpkin/mouth_a.tga
+head_mouth,models/players/great_pumpkin/mouth_new.tga

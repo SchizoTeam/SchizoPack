@@ -1,0 +1,12 @@
+hips,models/players/rocketfingers/Black.tga
+l_leg,models/players/rocketfingers/Black.tga
+r_leg,models/players/rocketfingers/Black.tga
+hips_torso,models/players/rocketfingers/Black.tga
+torso,models/players/rocketfingers/Black.tga
+r_arm,models/players/rocketfingers/Black.tga
+l_arm,models/players/rocketfingers/Black.tga
+head,models/players/rocketfingers/head.tga
+r_hand,models/players/rocketfingers/hands.tga
+l_hand,models/players/rocketfingers/hands.tga
+Head_Halo, *off
+Head_Horns, *off

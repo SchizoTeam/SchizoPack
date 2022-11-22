@@ -1,0 +1,12 @@
+hips,models/players/Stick_Man/cyan.tga
+l_leg,models/players/Stick_Man/cyan.tga
+r_leg,models/players/Stick_Man/cyan.tga
+hips_torso,models/players/Stick_Man/cyan.tga
+torso,models/players/Stick_Man/cyan.tga
+r_arm,models/players/Stick_Man/cyan.tga
+r_hand,models/players/Stick_Man/cyan.tga
+l_arm,models/players/Stick_Man/cyan.tga
+l_hand,models/players/Stick_Man/cyan.tga
+head,models/players/Stick_Man/cyan.tga
+Head_Halo, *off
+Head_Horns, *off

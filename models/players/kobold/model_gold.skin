@@ -1,0 +1,11 @@
+head,models/players/kobold/body_gl.tga
+mouth_eyes,models/players/kobold/mouth_eyes.tga
+sheath,models/players/kobold/mouth_eyes.tga
+torso,models/players/kobold/body_gl.tga
+r_arm,models/players/kobold/body_gl.tga
+l_arm,models/players/kobold/body_gl.tga
+r_hand,models/players/kobold/body_gl.tga
+l_hand,models/players/kobold/body_gl.tga
+hips,models/players/kobold/body_gl.tga
+r_leg,models/players/kobold/body_gl.tga
+l_leg,models/players/kobold/body_gl.tga

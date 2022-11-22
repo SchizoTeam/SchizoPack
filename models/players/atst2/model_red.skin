@@ -1,0 +1,17 @@
+torso,models/players/atst2/atst_body_red
+head,models/players/atst2/atst_body_red
+head_command_viewport,models/players/atst2/atst_body_red
+head_light_blaster_cann,models/players/atst2/atst_body_red
+head_twin_laser_cannons,models/players/atst2/atst_body_red
+head_l_panel,models/players/atst2/atst_body_red
+head_r_panel,models/players/atst2/atst_body_red
+l_leg_upper1,models/players/atst2/atst_legs_red
+l_leg_upper2,models/players/atst2/atst_legs_red
+l_leg_middle,models/players/atst2/atst_legs_red
+l_leg_lower,models/players/atst2/atst_legs_red
+l_leg_foot,models/players/atst2/atst_legs_red
+r_leg_upper1,models/players/atst2/atst_legs_red
+r_leg_upper2,models/players/atst2/atst_legs_red
+r_leg_middle,models/players/atst2/atst_legs_red
+r_leg_lower,models/players/atst2/atst_legs_red
+r_leg_foot,models/players/atst2/atst_legs_red

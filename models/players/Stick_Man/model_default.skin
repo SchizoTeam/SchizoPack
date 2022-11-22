@@ -1,0 +1,12 @@
+hips,models/players/Stick_Man/Black.tga
+l_leg,models/players/Stick_Man/Black.tga
+r_leg,models/players/Stick_Man/Black.tga
+hips_torso,models/players/Stick_Man/Black.tga
+torso,models/players/Stick_Man/Black.tga
+r_arm,models/players/Stick_Man/Black.tga
+r_hand,models/players/Stick_Man/Black.tga
+l_arm,models/players/Stick_Man/Black.tga
+l_hand,models/players/Stick_Man/Black.tga
+head,models/players/Stick_Man/Black.tga
+Head_Halo, *off
+Head_Horns, *off

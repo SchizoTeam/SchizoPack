@@ -1,0 +1,12 @@
+hips,models/players/Stick_Man/gold.tga
+l_leg,models/players/Stick_Man/gold.tga
+r_leg,models/players/Stick_Man/gold.tga
+hips_torso,models/players/Stick_Man/gold.tga
+torso,models/players/Stick_Man/gold.tga
+r_arm,models/players/Stick_Man/gold.tga
+r_hand,models/players/Stick_Man/gold.tga
+l_arm,models/players/Stick_Man/gold.tga
+l_hand,models/players/Stick_Man/gold.tga
+head,models/players/Stick_Man/gold.tga
+Head_Halo, *off
+Head_Horns, *off
