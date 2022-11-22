@@ -1,2 +1,2 @@
-# SchitzoPack
-SchitzoPack
+# SchizoPack
+SchizoPack
