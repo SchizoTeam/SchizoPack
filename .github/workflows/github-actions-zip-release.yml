@@ -1,5 +1,4 @@
 name: Create Archive
-uses: TheDoctor0/zip-release@0.6.2
 on: [push]
 jobs:
   build:
@@ -7,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Archive Release
-      uses: MOV-MB/SchizoPack
+      uses: thedoctor0/zip-release@main
       with:
         type: 'zip'
         filename: 'release.pk3'
