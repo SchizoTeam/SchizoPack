@@ -41,9 +41,8 @@ wampa_pl/default
 legoguy/default_wookiee
 don/default
 leo/default
-samurai/imm
 mike/default
-SD_tmnt/default
+samurai/imm
 splinter/default
 samurai/ashigaru
 samurai/default
@@ -106,7 +105,8 @@ peeping_eye_bloody/default
 peeping_eye_bloody/blue
 peeping_eye/default
 peeping_eye/blue
-homer/default
+homer/red
+neo/default
 
 mb_class_sith
 Xenius/default
@@ -170,7 +170,8 @@ Stick_Man/red
 atst2/red
 peeping_eye_bloody/red
 peeping_eye/red
-
+SD_tmnt/default
+smith/default
 
 
 
