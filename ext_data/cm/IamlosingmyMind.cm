@@ -107,6 +107,13 @@ peeping_eye/default
 peeping_eye/blue
 homer/red
 neo/default
+jedi_ew/endor
+jedi_ew/endor_archer
+jedi_ew/endor_chirpa
+jedi_ew/endor_kid
+jedi_ew/endor_medic
+jedi_ew/ewok_tosser
+jedi_ew/endor_warrick
 
 mb_class_sith
 Xenius/default
@@ -172,7 +179,9 @@ peeping_eye_bloody/red
 peeping_eye/red
 SD_tmnt/default
 smith/default
-
+jedi_ew/ewok_fighter
+jedi_ew/ewok_kid
+jedi_ew/zombie
 
 
 
