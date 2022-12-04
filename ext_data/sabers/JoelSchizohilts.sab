@@ -1,6 +1,6 @@
 saber_agen
 {
-	name		"Sword Of The Wring Wraiths"
+	name		"^0Sword Of The Ring Wraiths"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/naz/naz.glm"
 	soundOn		"sound/weapons/lotrsound/draw1.mp3"
@@ -57,7 +57,7 @@ saber_agen
 
 saber_zatt
 {
-	name		"Cloud"
+	name		"^1Cloud"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2\buster\bustersword.glm"
 	soundOn	"sound/weapons/swordss/draw1.mp3"
@@ -108,7 +108,7 @@ saber_zatt
 
 saber_asajj
 {
-	name		"Stop Sign"
+	name		"^1Stop Sign"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/stop_sign/stop_sign.glm"
 	noManualDeactivate 1
@@ -145,7 +145,7 @@ saber_asajj
 
 saber_asharad2
 {
-	name		"Traffic Light"
+	name		"^1Traffic Light"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/traffic_light/traffic_light.glm"
 	noManualDeactivate 1
@@ -182,7 +182,7 @@ saber_asharad2
 
 saber_ahsoka
 {
-	name		"Speed Limit Sign"
+	name		"^1Speed Limit Sign"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/speed_limit/speed_sign.glm"
 	noManualDeactivate 1
@@ -219,7 +219,7 @@ saber_ahsoka
 
 depa
 {
-	name		"Ban Hammah"
+	name		"^1Ban Hammah"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/mjolnir/saber_w.glm"
 
@@ -310,7 +310,7 @@ depa
 
 saber_aayla
 {
-	name		"Witch King Sword"
+	name		"^0Witch King Sword"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/wit/wit.glm"
 	soundOn		"sound/weapons/lotrsound/draw1.mp3"
@@ -366,7 +366,7 @@ saber_aayla
 
 saber_barriss
 {
-	name		MASAMUNE
+	name		"^1MASAMUNE"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/ac_masamune_szico/saber_w.glm"
 	soundOn		"sound/weapons/sam_KATANA/saberon.wav"
@@ -416,7 +416,7 @@ saber_barriss
 
 saber_draconis
 {
-	name		"Weed Powah"
+	name		"^4Weed Powah"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/joint/joint_w.glm"
 	soundOn		"sound/weapons/weed/weedon.mp3"
@@ -430,7 +430,7 @@ saber_draconis
 
 saber_desann_mp
 {
-name "SchizoNunchaku"
+name "^8SchizoNunchaku"
 saberType SABER_SINGLE
 saberModel "models/weapons2/saber_nunchaku/saber_w.glm"
 soundOn "sound/weapons/melee/swing3.mp3"
@@ -450,7 +450,7 @@ saberColor random
 
 saber_nobushi
 {
-	name		"Riddler Cane"
+	name		"^2Riddler Cane"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/dc_ridstaff/riddler_staff.glm"
 	soundOn	"sound/weapons/melee/swing2.mp3"
@@ -494,4 +494,339 @@ saber_nobushi
      	noIdleEffect	1
 	
 	hitPersonEffect "melee/punch_impact.efx"
+}
+
+saber_pride
+{
+	name		"^1RightWing"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/saber_wing/dracula_R_w.glm"
+	soundOn		"sound/weapons/bats/swing1.mp3"
+	soundLoop	none
+	soundOff               "sound/weapons/bats/swing1.mp3"
+  	numBlades	1
+             	saberLength	65
+				saberColor	red
+	saberRadius	12
+	useGoreConfig	1
+	damageScale  1.25
+	animSpeedScale 1.25
+	lungeAtkMove              LS_SPINATTACK_ALORA
+
+	disarmable	0
+	throwable	              0
+    noDlight	1
+	blockEffect	"dracula/block2.efx"
+	hitPersonEffect	"dracula/hitp2.efx"
+	hitOtherEffect	"dracula/block2.efx"
+		g2MarksShader		"gfx/damage/bloodcutmark"
+	g2WeaponMarkShader	"gfx/effects/bloodsplat"
+	trailStyle		2
+	noBlade		1
+	oninwater	              1 
+	noWallMarks         1
+
+	boltToWrist	1
+
+
+              readyAnim             BOTH_FORCE_ABSORB_START 
+	kataMove	              LS_LEAP_ATTACK
+
+	spinSound	"sound/weapons/bats/swing1.mp3"
+	swingSound1	"sound/weapons/bats/swing1.mp3"
+	swingSound2	"sound/weapons/bats/swing2.mp3"
+	swingSound3	"sound/weapons/bats/swing3.mp3"
+	hitSound1	"sound/weapons/bats/swing1.mp3"
+	hitSound2	"sound/weapons/bats/swing3.mp3"
+	hitSound3	"sound/weapons/bats/swing2.mp3"
+	blockSound1	"sound/weapons/melee/kick1.mp3"
+	blockSound2	"sound/weapons/melee/kick3.mp3"
+	blockSound3	"sound/weapons/melee/kick4.mp3"
+	bounceSound1       "sound/weapons/bats/swing1.mp3"
+	bounceSound2       "sound/weapons/bats/swing2.mp3"
+	bounceSound3       "sound/weapons/bats/swing3.mp3"
+	knockbackScale  1.2
+	noIdleEffect 1 
+	idleInBack	1
+	
+}
+
+saber_maris
+{
+	name		"^1LeftWing"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/saber_wing/dracula_L_w.glm"
+	soundOn		"sound/weapons/bats/swing1.mp3"
+		soundLoop	none
+	soundOff               "sound/weapons/bats/swing1.mp3"
+  	numBlades	1
+             	saberLength	60
+	saberColor	red
+	saberRadius	1
+	useGoreConfig	1
+	idleInBack	1
+
+	disarmable	0
+	throwable	              0
+   
+    noDlight	1  
+	damageScale  1.2
+	blockEffect	"dracula/block2.efx"
+	hitPersonEffect	"dracula/hitp2.efx"
+	hitOtherEffect	"dracula/block2.efx"
+		g2MarksShader		"gfx/damage/bloodcutmark"
+	g2WeaponMarkShader	"gfx/effects/bloodsplat"
+
+	trailStyle		2
+	noBlade		1
+	oninwater	              1 
+	noWallMarks         1
+
+
+	boltToWrist	1
+
+ 
+              readyAnim             BOTH_FORCE_ABSORB_START   
+	kataMove	              LS_LEAP_ATTACK
+
+	spinSound	"sound/weapons/bats/swing1.mp3"
+	swingSound1	"sound/weapons/bats/swing1.mp3"
+	swingSound2	"sound/weapons/bats/swing2.mp3"
+	swingSound3	"sound/weapons/bats/swing3.mp3"
+	hitSound1	"sound/weapons/bats/swing1.mp3"
+	hitSound2	"sound/weapons/bats/swing3.mp3"
+	hitSound3	"sound/weapons/bats/swing2.mp3"
+	blockSound1	"sound/weapons/melee/kick1.mp3"
+	blockSound2	"sound/weapons/melee/kick3.mp3"
+	blockSound3	"sound/weapons/melee/kick4.mp3"
+	bounceSound1       "sound/weapons/bats/swing1.mp3"
+	bounceSound2       "sound/weapons/bats/swing2.mp3"
+	bounceSound3       "sound/weapons/bats/swing3.mp3"
+	knockbackScale  1.2
+	noIdleEffect 1 
+}
+
+saber_even
+{
+	name	    "^1Whip"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/saber_replace/single_9.glm"
+	soundOn		"sound/weapons/NDA_whip/whip_onoff.wav"
+	soundLoop	none
+	soundOff	"sound/weapons/NDA_whip/whip_onoff.wav"
+  	numBlades	1
+        saberLength	85
+	saberColor	random
+	saberRadius	1
+	g2MarksShader	"textures/system/nodraw"
+    disarmable   0
+	blockEffect	"dracula/block2.efx"
+	hitPersonEffect	 "forcerod/fr_attack.efx"
+	hitOtherEffect	"dracula/block2.efx"
+	
+	useGoreConfig 1
+	knockbackScale   1.125
+    throwable 0
+	trailStyle	2
+	noBlade		1
+	oninwater	1
+	noDlight	1
+	noWallMarks	1
+	noIdleEffect	1
+	damageScale  0.375
+
+	spinSound	"sound/weapons/NDA_whip/whip_spin.wav"
+	swingSound1	"sound/weapons/NDA_whip/whip_swing1.mp3"
+	swingSound2	"sound/weapons/NDA_whip/whip_swing2.mp3"
+	swingSound3	"sound/weapons/NDA_whip/whip_swing3.mp3"
+	hitSound1	"sound/weapons/NDA_whip/whip_hit1.wav"
+	hitSound2	"sound/weapons/NDA_whip/whip_hit2.wav"
+	hitSound3	"sound/weapons/NDA_whip/whip_hit3.wav"
+	blockSound1	"sound/weapons/NDA_whip/whip_block1.wav"
+	blockSound2	"sound/weapons/NDA_whip/whip_block2.wav"
+	blockSound3	"sound/weapons/NDA_whip/whip_block3.wav"
+}
+
+single_6
+{
+	name		"^1chainsaw"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/saber_chainsaw/saber_w.glm"
+	soundOn		"sound/weapons/chainsaw/saberon.mp3"
+	soundLoop	"sound/weapons/chainsaw/saberhum1.mp3"
+	soundOff	none
+	saberLength	30
+	saberRadius	1
+	throwable		0
+	maxChain		3
+	disarmable	0
+	notInMP		0
+	boltToWrist 1
+	noDlight		1
+	noblade		1
+	noIdleEffect	1
+	onInWater	1
+	noManualDeactivate 	1
+	noWallMarks	1
+	trailStyle		2
+    
+	idleInBack	1
+	numblades	1
+	
+
+	noClashFlare 		1
+	
+	useGoreConfig	1
+	
+	
+	g2MarksShader "gfx/damage/bloodcutmark"
+	g2WeaponMarkShader "gfx/effects/bloodsplat"
+	jumpAtkFwdMove LS_PULL_ATTACK_STAB
+
+	spinsound	"sound/weapons/chainsaw/saberhup9.mp3"
+	swingSound1	"sound/weapons/chainsaw/saberhup8.mp3"
+	swingSound2	"sound/weapons/chainsaw/saberhup7.mp3"
+	swingSound3	"sound/weapons/chainsaw/saberhup6.mp3"
+	fallSound1	"sound/weapons/chainsaw/saberhup5.mp3"
+	fallSound2	"sound/weapons/chainsaw/saberhup4.mp3"
+	fallSound3	"sound/weapons/chainsaw/saberhup3.mp3"
+	hitSound1	"sound/weapons/blade/bounce1.mp3"
+	hitSound2	"sound/weapons/blade/bounce2.mp3"
+	hitSound3	"sound/weapons/blade/bounce3.mp3"
+	blockSound1	"sound/weapons//block1.mp3"
+	blockSound2	"sound/weapons/chainsaw/block2.mp3"
+	blockSound3	"sound/weapons/chainsaw/block3.mp3"
+
+	bounceSound1	"sound/weapons/chainsaw/bounce1.mp3"	
+	bounceSound2	"sound/weapons/chainsaw/bounce2.mp3"
+	bounceSound3	"sound/weapons/chainsaw/bounce3.mp3"
+	bounceOnWalls  1
+	
+	blockEffect	"melee_weap/block.efx"
+	hitPersonEffect "melee_weap/attack.efx"
+
+}
+
+saber_pic_gorc
+{
+	name		"^1The Slamma"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/saber_wavehammer/saber_w.glm"
+
+
+	soundOn	"sound/effects/null.wav"
+	soundLoop	"sound/effects/null.wav"
+	soundOff	"sound/effects/null.wav"
+	
+	numBlades	3
+	saberLength	70
+	saberRadius	3
+	saberLength2	10
+	saberRadius2	5
+	saberLength3	15
+	saberRadius3	5
+	twohanded	0
+	throwable	0
+	
+
+	swingSound1	"sound/weapons/hammers/swing1.mp3"
+	swingSound2	"sound/weapons/hammers/swing2.mp3"
+	swingSound3	"sound/weapons/hammers/swing3.mp3"
+
+	
+	blasterblocking		0
+	onInWater		1
+	bounceOnWalls	1
+	moveSpeedScale	1
+	animSpeedScale	1
+	
+	noRollStab	1
+	noStabDown	1
+	noWallRuns	0
+	noWallFlips	1
+	noWallGrab	1
+	noRolls	1
+	noFlips	1
+	noCartwheels	0
+	
+	kataMove	LS_SPINATTACK_ALORA
+	jumpAtkFwdMove LS_PULL_ATTACK_STAB
+	flourishAnim 	 BOTH_TAVION_SCEPTERGROUND
+	gloatAnim		BOTH_TAVION_SCEPTERGROUND
+	drawAnim	BOTH_SHOWOFF_STAFF
+	
+	
+	splashRadius	60
+	splashDamage	30
+	splashKnockback 111
+	noIdleEffect	1
+	damageScale		0.29
+	
+	transitionDamage	1
+	noManualDeactivate	1
+	knockbackScale	40
+	noDismemberment	1
+	
+	noWallMarks	1
+	noDlight	1
+	noBlade	1
+	noClashFlare 1
+	trailStyle	0
+	
+	g2MarksShader	"gfx/damage/burnmark4"
+	
+	hitSound1	"sound/weapons/hammers/hit1.mp3"
+	hitSound2	"sound/weapons/hammers/hit2.mp3"
+	hitSound3	"sound/weapons/hammers/hit3.mp3"
+	
+	blockSound1	"sound/weapons/staff/woodHit1.mp3"
+	blockSound2	"sound/weapons/staff/woodHit2.mp3"
+	blockSound3	"sound/weapons/staff/woodHit3.mp3"
+	//blockSound1	"sound/weapons/hammers/block1.mp3"
+	//blockSound2	"sound/weapons/hammers/block2.mp3"
+	//blockSound3	"sound/weapons/hammers/block3.mp3"
+	bounceSound1	"sound/weapons/hammers/bounce1.mp3"
+	bounceSound2	"sound/weapons/hammers/bounce2.mp3"
+	bounceSound3	"sound/weapons/hammers/bounce3.mp3"
+	
+	blockEffect	"sparks/spark.efx"
+	hitPersonEffect "sword/hitpeople2.efx"
+	hitOtherEffect	"magic/wave.efx"
+	
+}
+
+saber_ahsoka2
+{
+	name						"^1Jesus_saber"
+	saberType					SABER_SINGLE
+	saberModel		"models/weapons2/saber_jesus/jesus.glm"
+	soundOn		"sound/weapons/jsaber/saberonjesus.wav"
+	
+	numblades	3
+	saberLength	40
+	saberRadius	3
+	
+	saberLength2	10
+	saberRadius2	3
+	saberLength3	15
+	saberRadius3	3
+	
+	twohanded	0
+	throwable	1
+	
+	blasterBlocking    0 
+	
+	lungeAtkMove LS_PULL_ATTACK_STAB  
+	drawAnim BOTH_VICTORY_FAST
+	noIdleEffect    1
+	onInWater		1
+	bounceOnWalls	0
+	damageScale		0.7
+	splashRadius	40
+	splashDamage    0
+	splashKnockback	50
+	knockbackScale	5
+	jumpAtkRightmove    LS_JUMPATTACK_CART_RIGHT
+    jumpAtkLeftmove    LS_JUMPATTACK_CART_LEFT
+	
 }
