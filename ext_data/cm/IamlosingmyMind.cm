@@ -50,7 +50,6 @@ quinlan_vos2/sparrow
 leonidas/leonidas
 gimli/default
 legolas/default
-c3po/default
 player_hutt/default
 Baby_Yoda/default
 starfox/default
@@ -123,6 +122,22 @@ raptor/velociraptor
 Ash/default
 sb_droid/blue
 WW2/red
+c3po/default 
+blueranger/default
+klaus/default
+pinkranger/default
+santa/default
+elf/default
+bender_gold/default
+blackranger/default
+lsjoker/default
+jewels/default
+bender_santa/default
+yellowranger/default
+FatherJawa/default
+SantasFasionDesigner/default
+reelo_clause/default
+SantasHelper/default
 
 mb_class_sith
 Xenius/default
@@ -196,7 +211,9 @@ raptor/red
 reborn/troll
 sb_droid/default
 hammer/red
-
+redranger/default
+jskellington/default
+robotdevil/default
 
 
 
