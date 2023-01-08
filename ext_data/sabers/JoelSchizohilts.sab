@@ -416,7 +416,7 @@ saber_barriss
 
 saber_draconis
 {
-	name		"^4Weed Powah"
+	name		"^2Weed ^1Powah"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/joint/joint_w.glm"
 	soundOn		"sound/weapons/weed/weedon.mp3"
@@ -451,7 +451,7 @@ saberColor random
 saber_nobushi
 {
 	name		"^2Riddler Cane"
-	saberType	SABER_SINGLE
+	saberType	SABER_STAFF
 	saberModel	"models/weapons2/dc_ridstaff/riddler_staff.glm"
 	soundOn	"sound/weapons/melee/swing2.mp3"
 		
@@ -459,6 +459,7 @@ saber_nobushi
 	damageScale		0.4
 	numBlades	2
 	saberLength	32
+	saberStyle	staff
 	saberLength2	32
 	throwable	0
 	tauntAnim	BOTH_VICTORY_FAST
@@ -830,3 +831,107 @@ saber_ahsoka2
     jumpAtkLeftmove    LS_JUMPATTACK_CART_LEFT
 	
 }
+
+saber_qu_rahn
+{
+	name		"^6Purple ^0Dragon"
+	saberType	SABER_SINGLE
+	saberColor	random
+	saberLength	40
+	saberModel	"models/weapons2/saber_nxsw_purpdrag/saber_he.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+}
+
+saber_petro
+{
+	name		"^8Hermit ^0appliance"
+	saberType	SABER_SINGLE
+	saberColor	random
+	saberLength	40
+	saberModel	"models/weapons2/saber_nxsw_hermappl/saber_ha.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+}
+
+
+saber_tiin
+{
+	name		"^5Internal ^0power"
+	saberType	SABER_SINGLE
+	saberColor	random
+	saberLength	45
+	saberRadius 2
+	saberModel	"models/weapons2/saber_nxsw_internalpower/saber_ip.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+}
+
+saber_sariss
+{
+	name		"^3Stubborn ^0hurricane"
+	saberType	SABER_SINGLE
+	saberColor	random
+	saberLength	40
+	saberModel	"models/weapons2/saber_nxsw_stubhurr/saber_sh.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+}
+
+saber_oppo
+{
+	name		"Saruman's Staff"
+	saberType	SABER_STAFF
+	saberModel	"models/weapons2/b_staff/model.glm"
+	soundOn	"sound/weapons/sword/swing4.wav"
+		
+	numBlades	2
+	saberLength	32
+	saberLength2	3 
+	tauntAnim	BOTH_VICTORY_FAST
+	twoHanded	1
+	saberRadius	2
+	saberStyle	staff
+	throwable		0
+	singleBladeStyle	medium
+	singleBladeThrowable		1
+	maxChain		3
+	disarmable	1
+	notInMP		0
+	noDlight		1
+	noBlade		1
+	noIdleEffect	1
+	onInWater	1
+	noWallMarks	1
+	trailStyle		2
+	noManualDeactivate	1
+	bounceOnWalls	1
+	idleInBack	1
+
+	soundOn		sound/weapons/sword/draw1.mp3
+	soundOff	sound/weapons/sword/draw1.mp3
+	soundLoop	none
+
+	swingSound1	sound/weapons/sword/swing1.mp3
+	swingSound2	sound/weapons/sword/swing2.mp3
+	swingSound3	sound/weapons/sword/swing3.mp3
+	spinSound	sound/weapons/sword/swing2.mp3
+
+	fallSound1	sound/weapons/sword/fall3.mp3
+	fallSound2	sound/weapons/sword/fall6.mp3
+	fallSound3	sound/weapons/sword/fall4.mp3
+
+	hitSound1	sound/weapons/sword/stab1.mp3
+	hitSound2	sound/weapons/sword/stab2.mp3
+	hitSound3	sound/weapons/sword/stab3.mp3
+
+	blockSound1	sound/weapons/sword/fall1.mp3
+	blockSound2	sound/weapons/sword/fall6.mp3
+	blockSound3	sound/weapons/sword/fall2.mp3
+
+}
+
