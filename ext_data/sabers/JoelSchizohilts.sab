@@ -865,9 +865,26 @@ saber_tiin
 	saberLength	45
 	saberRadius 2
 	saberModel	"models/weapons2/saber_nxsw_internalpower/saber_ip.glm"
-	soundOn		"sound/weapons/saber/saberon.wav"
-	soundLoop	"sound/weapons/saber/saberhum4.wav"
-	soundOff	"sound/weapons/saber/saberoff.wav"
+	soundOn		"sound/power/saberon.mp3"
+	soundOff	"sound/weapons/KR_Saber/kylo_saber_off.wav"
+	soundLoop	"sound/power/saberhum6.wav"
+
+	swingSound1	"sound/power/saberhup1.mp3"
+	swingSound2	"sound/power/saberhup6.mp3"
+	swingSound3	"sound/power/saberhup9.mp3"
+	
+	hitSound1	"sound/power/saberhit1.mp3"
+	hitSound2	"sound/power/saberhit2.mp3"
+	hitSound3	"sound/power/saberhit3.mp3"
+
+	bounceSound1	"sound/power/saberbounce1.mp3"
+	bounceSound2	"sound/power/saberbounce2.mp3"
+	bounceSound3	"sound/power/saberbounce3.mp3"
+
+	blockSound1	"sound/power/saberblock6.mp3"
+	blockSound2	"sound/power/saberblock7.mp3"
+	blockSound3	"sound/power/saberblock9.mp3"
+
 }
 
 saber_sariss
@@ -877,9 +894,15 @@ saber_sariss
 	saberColor	random
 	saberLength	40
 	saberModel	"models/weapons2/saber_nxsw_stubhurr/saber_sh.glm"
-	soundOn		"sound/weapons/saber/saberon.wav"
-	soundLoop	"sound/weapons/saber/saberhum4.wav"
-	soundOff	"sound/weapons/saber/saberoff.wav"
+	soundOn		"sound\6\saberon.mp3"
+	soundLoop	"sound\6\saberhum.mp3"
+	soundOff	"sound\weapons\saber\sabershutoff.wav"
+	swingSound1	"sound\6\saberhup1.mp3"
+	swingSound2	"sound\6\saberhup2.mp3"
+	swingSound3	"sound\6\saberhup3.mp3"
+     blockSound1     "sound\6\saberblock1.mp3"
+     blockSound2     "sound\6\saberblock2.mp3"
+     blockSound3     "sound\6\saberblock3.mp3"
 }
 
 saber_oppo
