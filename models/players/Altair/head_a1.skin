@@ -1,0 +1,13 @@
+head,models/players/galen_adv_robe/hood.tga
+hood_down,*off
+head_cap_torso_off,models/players/stormtrooper/caps.tga
+heada,models/players/galen_adv_robe/head_back.tga
+heada_face,models/players/galen_adv_robe/face_hood.tga
+heada_teeth,models/players/galen_adv_robe/teeth.tga
+
+
+
+head_cap_torso_off,*off
+head_eyes_mouth,*off
+head_face,*off
+torso_cowelbase,*off
