@@ -839,21 +839,21 @@ saber_qu_rahn
 	saberColor	random
 	saberLength	40
 	saberModel	"models/weapons2/saber_nxsw_purpdrag/saber_he.glm"
-	soundOn		"sound/weapons/Dragon/saberon.wav"
-	soundLoop	"sound/weapons/Dragon/saberhum.wav"
-	soundOff	"sound/weapons/Dragon/saberoff.wav"
-	swingSound1     "sound/weapons/Dragon/swing1.wav"
-	swingSound2     "sound/weapons/Dragon/swing2.wav"
-	swingSound3     "sound/weapons/Dragon/swing3.wav"
-	hitSound1       "sound/weapons/Dragon/hit1.wav"
-	hitSound2       "sound/weapons/Dragon/hit2.wav"
-	hitSound3       "sound/weapons/Dragon/hit3.wav"
-    blockSound1     "sound/weapons/Dragon/block1.wav"
-	blockSound2     "sound/weapons/Dragon/block2.wav"
-	blockSound3     "sound/weapons/Dragon/block3.wav"
-	bounceSound1    "sound/weapons/Dragon/bounce1.wav"
-	bounceSound2    "sound/weapons/Dragon/bounce2.wav"
-	bounceSound3    "sound/weapons/Dragon/bounce3.wav"
+	soundOn		"sound/weapons/Dragon/saberon.mp3"
+	soundLoop	"sound/weapons/Dragon/saberhum.mp3"
+	soundOff	"sound/weapons/Dragon/saberoff.mp3"
+	swingSound1     "sound/weapons/Dragon/swing1.mp3"
+	swingSound2     "sound/weapons/Dragon/swing2.mp3"
+	swingSound3     "sound/weapons/Dragon/swing3.mp3"
+	hitSound1       "sound/weapons/Dragon/hit1.mp3"
+	hitSound2       "sound/weapons/Dragon/hit2.mp3"
+	hitSound3       "sound/weapons/Dragon/hit3.mp3"
+    blockSound1     "sound/weapons/Dragon/block1.mp3"
+	blockSound2     "sound/weapons/Dragon/block2.mp3"
+	blockSound3     "sound/weapons/Dragon/block3.mp3"
+	bounceSound1    "sound/weapons/Dragon/bounce1.mp3"
+	bounceSound2    "sound/weapons/Dragon/bounce2.mp3"
+	bounceSound3    "sound/weapons/Dragon/bounce3.mp3"
 }
 
 saber_petro
@@ -863,21 +863,21 @@ saber_petro
 	saberColor	random
 	saberLength	40
 	saberModel	"models/weapons2/saber_nxsw_hermappl/saber_ha.glm"
-    soundOn		"sound/weapons/Hermit/saberon.wav"
-	soundLoop	"sound/weapons/Hermit/saberhum.wav"
-	soundOff	"sound/weapons/Hermit/saberoff.wav"
-	swingSound1     "sound/weapons/Hermit/swing1.wav"
-	swingSound2     "sound/weapons/Hermit/swing2.wav"
-	swingSound3     "sound/weapons/Hermit/swing3.wav"
-	hitSound1       "sound/weapons/Hermit/hit1.wav"
-	hitSound2       "sound/weapons/Hermit/hit2.wav"
-	hitSound3       "sound/weapons/Hermit/hit3.wav"
-    blockSound1     "sound/weapons/Hermit/block1.wav"
-	blockSound2     "sound/weapons/Hermit/block2.wav"
-	blockSound3     "sound/weapons/Hermit/block3.wav"
-	bounceSound1    "sound/weapons/Hermit/bounce1.wav"
-	bounceSound2    "sound/weapons/Hermit/bounce2.wav"
-	bounceSound3    "sound/weapons/Hermit/bounce3.wav"
+    soundOn		"sound/weapons/Hermit/saberon.mp3"
+	soundLoop	"sound/weapons/Hermit/saberhum.mp3"
+	soundOff	"sound/weapons/Hermit/saberoff.mp3"
+	swingSound1     "sound/weapons/Hermit/swing1.mp3"
+	swingSound2     "sound/weapons/Hermit/swing2.mp3"
+	swingSound3     "sound/weapons/Hermit/swing3.mp3"
+	hitSound1       "sound/weapons/Hermit/hit1.mp3"
+	hitSound2       "sound/weapons/Hermit/hit2.mp3"
+	hitSound3       "sound/weapons/Hermit/hit3.mp3"
+    blockSound1     "sound/weapons/Hermit/block1.mp3"
+	blockSound2     "sound/weapons/Hermit/block2.mp3"
+	blockSound3     "sound/weapons/Hermit/block3.mp3"
+	bounceSound1    "sound/weapons/Hermit/bounce1.mp3"
+	bounceSound2    "sound/weapons/Hermit/bounce2.mp3"
+	bounceSound3    "sound/weapons/Hermit/bounce3.mp3"
 }
 
 
@@ -991,4 +991,26 @@ saber_oppo
 	blockSound3	sound/weapons/sword/fall2.mp3
 
 }
+
+single_8
+{
+	name		"^4Vacuum Cleaner"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/saber_jss/saber_jss.glm"
+	soundOn		"sound/weapons/vacuum/saberon.mp3"
+	soundLoop	"sound/weapons/vacuum/saberhum.mp3"
+	soundOff	"sound/weapons/vacuum/saberoff.wav"
+	
+	swingSound1 "sound/weapons/vacuum/saberhup1.mp3"
+	swingSound2 "sound/weapons/vacuum/saberhup2.mp3"
+	swingSound3 "sound/weapons/vacuum/saberhup3.mp3"
+
+	blockSound1 "sound/weapons/vacuum/saberblock1.mp3"
+	blockSound2 "sound/weapons/vacuum/saberblock2.mp3"
+	blockSound3 "sound/weapons/vacuum/saberblock3.mp3"
+
+	saberLength	40
+	saberColor	random
+}
+
 
