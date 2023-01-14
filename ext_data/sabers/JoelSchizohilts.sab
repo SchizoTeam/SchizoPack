@@ -834,7 +834,7 @@ saber_ahsoka2
 
 saber_qu_rahn
 {
-	name		"^2Grass-^0Cutter"
+	name		"^6Durendal"
 	saberType	SABER_SINGLE
 	saberColor	random
 	saberLength	40
@@ -858,7 +858,7 @@ saber_qu_rahn
 
 saber_petro
 {
-	name		"^6Durendal"
+	name		"^2Grass-^0Cutter"
 	saberType	SABER_SINGLE
 	saberColor	random
 	saberLength	40
@@ -917,11 +917,10 @@ saber_sariss
 	saberType	SABER_SINGLE
 	saberColor	random
 	saberLength	40
-	unstable 1
 	saberModel	"models/weapons2/saber_nxsw_stubhurr/saber_sh.glm"
 	soundOn		"sound\Hurricane\saberon.mp3"
 	soundLoop	"sound\Hurricane\saberhum.mp3"
-	soundOff	"sound\weapons\saber\sabershutoff.wav"
+	soundOff	"sound\weapons\saber\sabershutoff.mp3"
 	
 	swingSound1	"sound\Hurricane\saberhup1.mp3"
 	swingSound2	"sound\Hurricane\saberhup2.mp3"
@@ -931,9 +930,9 @@ saber_sariss
     blockSound2     "sound\Hurricane\saberblock2.mp3"
     blockSound3     "sound\Hurricane\saberblock3.mp3"
 	
-	hitSound1  "sound\Hurricane\hit1.wav"
-	hitSound2  "sound\Hurricane\hit2.wav"
-	hitSound3  "sound\Hurricane\hit3.wav"
+	hitSound1  "sound\Hurricane\hit1.mp3"
+	hitSound2  "sound\Hurricane\hit2.mp3"
+	hitSound3  "sound\Hurricane\hit3.mp3"
 
     bounceSound1 "sound\Hurricane\saberbounce1.wav"
 	  bounceSound2 "sound\Hurricane\saberbounce2.wav"
