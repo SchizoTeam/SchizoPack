@@ -920,7 +920,7 @@ saber_sariss
 	saberModel	"models/weapons2/saber_nxsw_stubhurr/saber_sh.glm"
 	soundOn		"sound\Hurricane\saberon.mp3"
 	soundLoop	"sound\Hurricane\saberhum.mp3"
-	soundOff	"sound\weapons\saber\sabershutoff.mp3"
+	soundOff	"sound\weapons\hurricane\saberoff.mp3"
 	
 	swingSound1	"sound\Hurricane\saberhup1.mp3"
 	swingSound2	"sound\Hurricane\saberhup2.mp3"
@@ -1009,6 +1009,33 @@ single_8
 	blockSound2 "sound/weapons/vacuum/saberblock2.mp3"
 	blockSound3 "sound/weapons/vacuum/saberblock3.mp3"
 
+	saberLength	40
+	saberColor	random
+}
+
+single_4
+{
+	name		"^0Karus's ^2Anduril"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/kane_if/saber.glm"
+	soundOn		"sound\Kane\saberon.mp3"
+	soundLoop	"sound\Kane\saberhum.mp3"
+	soundOff	"sound\Kane\saberoff.mp3"
+	swingSound1	"sound\Kane\saberhup1.mp3"
+	swingSound2	"sound\Kane\saberhup2.mp3"
+	swingSound3	"sound\Kane\saberhup3.mp3"
+   
+    blockSound1     "sound\Kane\saberblock1.mp3"
+    blockSound2     "sound\Kane\saberblock2.mp3"
+    blockSound3     "sound\Kane\saberblock3.mp3"
+	
+	hitSound1  "sound\Kane\hit1.mp3"
+	hitSound2  "sound\Kane\hit2.mp3"
+	hitSound3  "sound\Kane\hit3.mp3"
+
+    bounceSound1 "sound\Kane\saberbounce1.wav"
+	  bounceSound2 "sound\Kane\saberbounce2.wav"
+	    bounceSound3 "sound\Kane\saberbounce3.wav"
 	saberLength	40
 	saberColor	random
 }
