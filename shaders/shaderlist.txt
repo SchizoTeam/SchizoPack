@@ -1,14 +1,55 @@
-Characters
+  ///////////////////////////////////
+  //                               // 
+  //   **** Clean Shaders ****     //
+  //         Nov. 7th, 2003        //
+  //          By Astrocreep        //
+  //          -------------        //
+  //    For Level Editing info:    //
+  //       www.map-center.com      //
+  //          -------------        //
+  //    For GtkRadiant Updates:    //
+  //       www.qeradiant.com       //
+  //                               //
+  ///////////////////////////////////
+
+
+bespin
+bounty
+byss
+cairn
+common
+danger
 decals
-skies
-system
-test
+desert
+doomgiver
+factory
 flares
 fogs
-common
-bespin
+h_evil
+hoth
+imp_mine
+impdetention
 imperial
-metashader
-sprites
-cinematics
-vader
+jnegretetest
+kejim
+korriban
+models
+mp
+narshaddaa
+nar_streets
+quicktrip
+rail
+rbettenbergtest
+rift
+rocky_ruins
+rooftop
+sandcrawler
+siege
+skies
+stu
+system
+taspir
+tests
+vjun
+wedge
+yavintiefacilityjabba

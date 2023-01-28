@@ -1,0 +1,269 @@
+models/players/DeviantMando/Torso5
+{
+       	{
+		map models/players/DeviantMando/Torso5
+                blendFunc GL_ONE GL_ZERO
+                rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome
+                blendFunc GL_DST_COLOR GL_SRC_COLOR
+                tcGen environment
+	}
+	{
+		map models/players/DeviantMando/Torso5_spec
+                blendFunc GL_SRC_ALPHA GL_ONE
+                detail
+                alphaGen lightingSpecular
+	}
+}
+
+models/players/DeviantMando/gogs4
+{        
+	{
+		map models/players/DeviantMando/gogs4
+		rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome2
+		blendfunc add
+		rgbGen lightingDiffuse
+		tcGen environment 
+	}
+	{
+                map GFX/Effects/Saber_glow
+                blendFunc GL_SRC_ALPHA GL_SRC_ALPHA
+                tcMod scroll 3 0.5
+	}
+	{
+		map models/players/DeviantMando/gogs4
+		blendfunc blend
+		rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome
+                blendFunc GL_DST_COLOR GL_SRC_COLOR
+                tcGen environment
+	}
+	{
+		map models/players/DeviantMando/gogs4
+                blendFunc GL_SRC_ALPHA GL_ONE
+                detail
+                alphaGen lightingSpecular
+	}
+        {
+                map models/players/DeviantMando/gogs3_glow
+                blendFunc GL_ONE GL_ONE
+                glow
+                rgbGen identity
+        }
+}
+
+models/players/DeviantMando/HelmD
+{        
+	{
+		map models/players/DeviantMando/HelmD
+		rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome2
+		blendfunc add
+		rgbGen lightingDiffuse
+		tcGen environment 
+	}
+	{
+                map GFX/Effects/Saber_glow
+                blendFunc GL_SRC_ALPHA GL_SRC_ALPHA
+                tcMod scroll 3 0.5
+	}
+	{
+		map models/players/DeviantMando/HelmD
+		blendfunc blend
+		rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome
+                blendFunc GL_DST_COLOR GL_SRC_COLOR
+                tcGen environment
+	}
+	{
+		map models/players/DeviantMando/HelmD_spec
+                blendFunc GL_SRC_ALPHA GL_ONE
+                detail
+                alphaGen lightingSpecular
+	}
+        {
+                map models/players/DeviantMando/HelmD_glow
+                blendFunc GL_ONE GL_ONE
+                glow
+                rgbGen identity
+        }
+}
+
+models/players/DeviantMando/commanderboots
+{        
+	{
+		map models/players/DeviantMando/commanderboots
+                blendFunc GL_ONE GL_ZERO
+                rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome
+                blendFunc GL_DST_COLOR GL_SRC_COLOR
+                tcGen environment
+	}
+	{
+		map models/players/DeviantMando/commanderboots_spec
+                blendFunc GL_SRC_ALPHA GL_ONE
+                detail
+                alphaGen lightingSpecular
+	}
+}
+
+models/players/DeviantMando/newpack
+{        
+	{
+		map models/players/DeviantMando/newpack
+                blendFunc GL_ONE GL_ZERO
+                rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome
+                blendFunc GL_DST_COLOR GL_SRC_COLOR
+                tcGen environment
+	}
+	{
+		map models/players/DeviantMando/newpack_spec
+                blendFunc GL_SRC_ALPHA GL_ONE
+                detail
+                alphaGen lightingSpecular
+	}
+}
+
+models/players/DeviantMando/oldpack
+{        
+	{
+		map models/players/DeviantMando/oldpack
+                blendFunc GL_ONE GL_ZERO
+                rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome
+                blendFunc GL_DST_COLOR GL_SRC_COLOR
+                tcGen environment
+	}
+	{
+		map models/players/DeviantMando/oldpack_spec
+                blendFunc GL_SRC_ALPHA GL_ONE
+                detail
+                alphaGen lightingSpecular
+	}
+}
+
+models/players/DeviantMando/mandogear
+{        
+	{
+		map models/players/DeviantMando/mandogear
+                blendFunc GL_ONE GL_ZERO
+                rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome
+                blendFunc GL_DST_COLOR GL_SRC_COLOR
+                tcGen environment
+	}
+	{
+		map models/players/DeviantMando/mandogear_spec
+                blendFunc GL_SRC_ALPHA GL_ONE
+                detail
+                alphaGen lightingSpecular
+	}
+}
+
+models/players/DeviantMando/acc2-3
+{        
+	cull	disable
+	{
+		map models/players/DeviantMando/acc2-3
+                blendFunc GL_ONE GL_ZERO
+                rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome
+                blendFunc GL_DST_COLOR GL_SRC_COLOR
+                tcGen environment
+	}
+	{
+		map models/players/DeviantMando/acc2-3_spec
+                blendFunc GL_SRC_ALPHA GL_ONE
+                detail
+                alphaGen lightingSpecular
+	}
+}
+
+models/players/DeviantMando/acc2-4
+{	        
+	cull	disable
+	{
+		map models/players/DeviantMando/acc2-4
+                blendFunc GL_ONE GL_ZERO
+                rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome
+                blendFunc GL_DST_COLOR GL_SRC_COLOR
+                tcGen environment
+	}
+	{
+		map models/players/DeviantMando/acc2-3_spec
+                blendFunc GL_SRC_ALPHA GL_ONE
+                detail
+                alphaGen lightingSpecular
+	}
+}
+
+models/players/DeviantMando/acc1
+{        
+	cull	disable
+	{
+		map models/players/DeviantMando/acc1
+                blendFunc GL_ONE GL_ZERO
+                rgbGen lightingDiffuse
+	}
+	{
+		map GFX/Effects/Envchrome
+                blendFunc GL_DST_COLOR GL_SRC_COLOR
+                tcGen environment
+	}
+	{
+		map models/players/DeviantMando/acc1_spec
+                blendFunc GL_SRC_ALPHA GL_ONE
+                detail
+                alphaGen lightingSpecular
+	}
+}
+
+models/players/DeviantMando/face1
+{        
+	{
+               map models/players/DeviantMando/face1
+               rgbGen lightingDiffuse
+	}
+	{
+               map models/players/DeviantMando/face1_spec
+               blendFunc GL_SRC_ALPHA GL_ONE
+               detail
+               alphaGen lightingSpecular
+	}
+}
+
+models/players/DeviantMando/Kama
+{        
+	cull	disable
+    {
+        map models/players/DeviantMando/Kama
+        alphaFunc GE192
+        depthWrite
+        rgbGen lightingDiffuse
+    }
+}

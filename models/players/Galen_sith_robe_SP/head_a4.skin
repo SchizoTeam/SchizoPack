@@ -1,0 +1,10 @@
+mouth,models/players/galen_sith_robe/teeth.tga
+head_face,models/players/galen_sith_robe/face_hood.tga
+
+
+head_back,models/players/galen_sith_robe/head_back.tga
+head_hood,models/players/galen_sith_robe/hood_2.tga
+
+hood_down,*off
+
+
