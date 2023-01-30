@@ -15,5 +15,6 @@ hips_gun,models/players/Darthgrievous/gun.tga
 
 torso_platel,models/players/Darthgrievous/breastplate.tga
 torso_plater,models/players/Darthgrievous/breastplate.tga
+torso_cape,*off
 
 
