@@ -230,12 +230,7 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
+
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -517,12 +512,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -807,12 +796,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -1099,12 +1082,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -1388,12 +1365,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -1680,12 +1651,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -1972,12 +1937,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -2264,12 +2223,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -2556,12 +2509,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -2611,9 +2558,6 @@ ezio/default
 peter3/default
 pinocho/default
 luke_tfa/cloak
-
-
-
 
 mb_class_mandalorian
 Aragorn/default
@@ -2848,12 +2792,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -2903,8 +2841,6 @@ ezio/default
 peter3/default
 pinocho/default
 luke_tfa/cloak
-
-
 
 
 mb_class_arctrooper
@@ -3140,12 +3076,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -3195,8 +3125,6 @@ ezio/default
 peter3/default
 pinocho/default
 luke_tfa/cloak
-
-
 
 mb_class_wookie 
 Aragorn/default
@@ -3431,12 +3359,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
@@ -3486,8 +3408,6 @@ ezio/default
 peter3/default
 pinocho/default
 luke_tfa/cloak
-
-
 
 mb_class_sbd
 Aragorn/default
@@ -3722,12 +3642,6 @@ rain_knight/default
 rain_knight/red
 rain_knight/blue
 CB/default
-CB/default_CB21
-CB/default_CB22
-CB/default_CB24
-CB/default_CB25
-CB/default_CB26
-CB/default_CB27
 Saruman/default
 Saruman_nostaff/default
 tc_jester/default
