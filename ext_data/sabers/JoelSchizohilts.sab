@@ -419,6 +419,7 @@ saber_draconis
 	name		"^2Weed ^1Powah"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/joint/joint_w.glm"
+	saberRadius 1.5
 	soundOn		"sound/weapons/weed/weedon.mp3"
 	soundLoop	"sound/weapons/weed/weedhum.wav"
 	soundOff	"sound/weapons/weed/weedcrushed.mp3"
@@ -834,10 +835,11 @@ saber_ahsoka2
 
 saber_qu_rahn
 {
-	name		"^6Durendal"
+	name		"^4BronzeAgeShitpost"
 	saberType	SABER_SINGLE
 	saberColor	random
-	saberLength	40
+	saberLength	45
+	saberRadius 1.5
 	saberModel	"models/weapons2/saber_nxsw_purpdrag/saber_he.glm"
 	soundOn		"sound/weapons/Dragon/saberon.mp3"
 	soundLoop	"sound/weapons/Dragon/saberhum.mp3"
@@ -861,7 +863,8 @@ saber_petro
 	name		"^2Grass-^0Cutter"
 	saberType	SABER_SINGLE
 	saberColor	random
-	saberLength	40
+	saberLength	45
+	saberRadius 1.5
 	saberModel	"models/weapons2/saber_nxsw_hermappl/saber_ha.glm"
     soundOn		"sound/weapons/Hermit/saberon.mp3"
 	soundLoop	"sound/weapons/Hermit/saberhum.mp3"
@@ -883,23 +886,23 @@ saber_petro
 
 saber_tiin
 {
-	name		"^5Joel's ^0E^3x^0calibur"
+	name		"^0Joel's^1Schizo^7Terrorist^0Saber"
 	saberType	SABER_SINGLE
 	saberColor	random
 	saberLength	45
-	saberRadius 2
+	saberRadius 1.5
 	saberModel	"models/weapons2/saber_nxsw_internalpower/saber_ip.glm"
 	soundOn		"sound/Power/saberon.mp3"
-	soundOff	"sound/weapons/KR_Saber/kylo_saber_off.wav"
-	soundLoop	"sound/Power/saberhum6.wav"
+	soundOff	"sound/Power/saberoff.mp3"
+	soundLoop	"sound/Power/saberhum6.mp3"
 
 	swingSound1	"sound/Power/saberhup1.mp3"
 	swingSound2	"sound/Power/saberhup6.mp3"
 	swingSound3	"sound/Power/saberhup9.mp3"
 	
 	hitSound1	"sound/Power/saberhit1.mp3"
-	hitSound2	"sound/Power/saberhit2.mp3"
-	hitSound3	"sound/Power/saberhit3.mp3"
+	hitSound2	"sound/Power/saberhit1.mp3"
+	hitSound3	"sound/Power/saberhit1.mp3"
 
 	bounceSound1	"sound/Power/saberbounce1.mp3"
 	bounceSound2	"sound/Power/saberbounce2.mp3"
@@ -913,10 +916,11 @@ saber_tiin
 
 saber_sariss
 {
-	name		"^4DawneZ's ^1Gramr"
+	name		"^4DawneZ's^1Outside^0Smoker"
 	saberType	SABER_SINGLE
 	saberColor	random
-	saberLength	40
+	saberLength	45
+	saberRadius 1.5
 	saberModel	"models/weapons2/saber_nxsw_stubhurr/saber_sh.glm"
 	soundOn		"sound\Hurricane\saberon.mp3"
 	soundLoop	"sound\Hurricane\saberhum.mp3"
@@ -997,6 +1001,8 @@ single_8
 	name		"^4Vacuum Cleaner"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/saber_jss/saber_jss.glm"
+	saberRadius 1.5
+	saberLength	45
 	soundOn		"sound/weapons/vacuum/saberon.mp3"
 	soundLoop	"sound/weapons/vacuum/saberhum.mp3"
 	soundOff	"sound/weapons/vacuum/saberoff.wav"
@@ -1015,7 +1021,7 @@ single_8
 
 single_4
 {
-	name		"^0Karus's ^2Anduril"
+	name		"^0Karus's^2Cracksaber"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/kane_if/saber.glm"
 	soundOn		"sound\Kane\saberon.mp3"
