@@ -943,6 +943,84 @@ saber_sariss
 	    bounceSound3 "sound\Hurricane\saberbounce3.wav"
 }
 
+single_4
+{
+	name		"^0Karus's^2Cracksaber"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/kane_if/saber.glm"
+	saberLength	45
+	saberRadius 1.5
+	soundOn		"sound\Kane\saberon.mp3"
+	soundLoop	"sound\Kane\saberhum.mp3"
+	soundOff	"sound\Kane\saberoff.mp3"
+	swingSound1	"sound\Kane\saberhup1.mp3"
+	swingSound2	"sound\Kane\saberhup2.mp3"
+	swingSound3	"sound\Kane\saberhup3.mp3"
+   
+    blockSound1     "sound\Kane\saberblock1.mp3"
+    blockSound2     "sound\Kane\saberblock2.mp3"
+    blockSound3     "sound\Kane\saberblock3.mp3"
+	
+	hitSound1  "sound\Kane\hit1.mp3"
+	hitSound2  "sound\Kane\hit2.mp3"
+	hitSound3  "sound\Kane\hit3.mp3"
+
+    bounceSound1 "sound\Kane\saberbounce1.wav"
+	  bounceSound2 "sound\Kane\saberbounce2.wav"
+	    bounceSound3 "sound\Kane\saberbounce3.wav"
+	saberColor	random
+}
+
+saber_corvax
+{
+	name		"^1Sword ^0of Slave Knight ^1Gael"
+	saberType	SABER_SINGLE
+	saberModel  "models/weapons2/saber_plasma/saber_corvax.glm"
+	saberLength 45
+	saberRadius 1.5
+	saberColor  random
+	soundOn		"sound/weapons/lotrsound/draw1.mp3"
+	soundOff	"sound/weapons/lotrsound/off.mp3"
+	soundLoop	none
+	spinSound	"sound/weapons/swordss/swing3.mp3"	
+	swingSound1	"sound/weapons/swordss/swing1.mp3"
+	swingSound2	"sound/weapons/swordss/swing2.mp3"
+	swingSound3	"sound/weapons/swordss/swing4.mp3"
+    fallSound1  "sound/weapons/swordss/fall4.mp3"
+    fallSound2  "sound/weapons/swordss/fall5.mp3"
+    fallSound3  "sound/weapons/swordss/fall6.mp3"
+	hitSound1	"sound/weapons/swordss/stab4.mp3"
+	hitSound2	"sound/weapons/swordss/stab3.mp3"
+	hitSound3	"sound/weapons/swordss/stab2.mp3"
+	blockSound1	"sound/weapons/swordss/block1.mp3"
+	blockSound2	"sound/weapons/swordss/block2.mp3"
+	blockSound3	"sound/weapons/swordss/block3.mp3"
+	bounceSound1	"sound/weapons/swordss/bounce1.mp3"
+	bounceSound2	"sound/weapons/swordss/bounce2.mp3"
+	bounceSound3	"sound/weapons/swordss/bounce3.mp3"
+}
+single_8
+{
+	name		"^4Vacuum Cleaner"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/saber_jss/saber_jss.glm"
+	saberRadius 1.5
+	saberLength	45
+	soundOn		"sound/weapons/vacuum/saberon.mp3"
+	soundLoop	"sound/weapons/vacuum/saberhum.mp3"
+	soundOff	"sound/weapons/vacuum/saberoff.wav"
+	
+	swingSound1 "sound/weapons/vacuum/saberhup1.mp3"
+	swingSound2 "sound/weapons/vacuum/saberhup2.mp3"
+	swingSound3 "sound/weapons/vacuum/saberhup3.mp3"
+
+	blockSound1 "sound/weapons/vacuum/saberblock1.mp3"
+	blockSound2 "sound/weapons/vacuum/saberblock2.mp3"
+	blockSound3 "sound/weapons/vacuum/saberblock3.mp3"
+
+	saberLength	40
+	saberColor	random
+}
 saber_oppo
 {
 	name		"Saruman's Staff"
@@ -995,55 +1073,4 @@ saber_oppo
 	blockSound3	sound/weapons/sword/fall2.mp3
 
 }
-
-single_8
-{
-	name		"^4Vacuum Cleaner"
-	saberType	SABER_SINGLE
-	saberModel	"models/weapons2/saber_jss/saber_jss.glm"
-	saberRadius 1.5
-	saberLength	45
-	soundOn		"sound/weapons/vacuum/saberon.mp3"
-	soundLoop	"sound/weapons/vacuum/saberhum.mp3"
-	soundOff	"sound/weapons/vacuum/saberoff.wav"
-	
-	swingSound1 "sound/weapons/vacuum/saberhup1.mp3"
-	swingSound2 "sound/weapons/vacuum/saberhup2.mp3"
-	swingSound3 "sound/weapons/vacuum/saberhup3.mp3"
-
-	blockSound1 "sound/weapons/vacuum/saberblock1.mp3"
-	blockSound2 "sound/weapons/vacuum/saberblock2.mp3"
-	blockSound3 "sound/weapons/vacuum/saberblock3.mp3"
-
-	saberLength	40
-	saberColor	random
-}
-
-single_4
-{
-	name		"^0Karus's^2Cracksaber"
-	saberType	SABER_SINGLE
-	saberModel	"models/weapons2/kane_if/saber.glm"
-	soundOn		"sound\Kane\saberon.mp3"
-	soundLoop	"sound\Kane\saberhum.mp3"
-	soundOff	"sound\Kane\saberoff.mp3"
-	swingSound1	"sound\Kane\saberhup1.mp3"
-	swingSound2	"sound\Kane\saberhup2.mp3"
-	swingSound3	"sound\Kane\saberhup3.mp3"
-   
-    blockSound1     "sound\Kane\saberblock1.mp3"
-    blockSound2     "sound\Kane\saberblock2.mp3"
-    blockSound3     "sound\Kane\saberblock3.mp3"
-	
-	hitSound1  "sound\Kane\hit1.mp3"
-	hitSound2  "sound\Kane\hit2.mp3"
-	hitSound3  "sound\Kane\hit3.mp3"
-
-    bounceSound1 "sound\Kane\saberbounce1.wav"
-	  bounceSound2 "sound\Kane\saberbounce2.wav"
-	    bounceSound3 "sound\Kane\saberbounce3.wav"
-	saberLength	40
-	saberColor	random
-}
-
 
