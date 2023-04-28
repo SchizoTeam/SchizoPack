@@ -419,7 +419,7 @@ saber_draconis
 	name		"^2Weed ^1Powah"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/joint/joint_w.glm"
-	saberRadius 1.5
+	saberRadius 2.7
 	soundOn		"sound/weapons/weed/weedon.mp3"
 	soundLoop	"sound/weapons/weed/weedhum.wav"
 	soundOff	"sound/weapons/weed/weedcrushed.mp3"
@@ -838,8 +838,8 @@ saber_qu_rahn
 	name		"^4BronzeAgeShitpost"
 	saberType	SABER_SINGLE
 	saberColor	random
-	saberLength	45
-	saberRadius 1.5
+	saberLength	100
+	saberRadius 2.7
 	saberModel	"models/weapons2/saber_nxsw_purpdrag/saber_he.glm"
 	soundOn		"sound/weapons/Dragon/saberon.mp3"
 	soundLoop	"sound/weapons/Dragon/saberhum.mp3"
@@ -863,8 +863,8 @@ saber_petro
 	name		"^2Grass-^0Cutter"
 	saberType	SABER_SINGLE
 	saberColor	random
-	saberLength	45
-	saberRadius 1.5
+	saberLength	100
+	saberRadius 2.7
 	saberModel	"models/weapons2/saber_nxsw_hermappl/saber_ha.glm"
     soundOn		"sound/weapons/Hermit/saberon.mp3"
 	soundLoop	"sound/weapons/Hermit/saberhum.mp3"
@@ -889,8 +889,8 @@ saber_tiin
 	name		"^0Joel's^1Schizo^7Terrorist^0Saber"
 	saberType	SABER_SINGLE
 	saberColor	random
-	saberLength	45
-	saberRadius 1.5
+	saberLength	100
+	saberRadius 2.7
 	saberModel	"models/weapons2/saber_nxsw_internalpower/saber_ip.glm"
 	soundOn		"sound/Power/saberon.mp3"
 	soundOff	"sound/Power/saberoff.mp3"
@@ -919,8 +919,8 @@ saber_sariss
 	name		"^4DawneZ's^1Outside^0Smoker"
 	saberType	SABER_SINGLE
 	saberColor	random
-	saberLength	45
-	saberRadius 1.5
+	saberLength	100
+	saberRadius 2.7
 	saberModel	"models/weapons2/saber_nxsw_stubhurr/saber_sh.glm"
 	soundOn		"sound\Hurricane\saberon.mp3"
 	soundLoop	"sound\Hurricane\saberhum.mp3"
@@ -948,8 +948,8 @@ single_4
 	name		"^0Karus's^2Cracksaber"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/kane_if/saber.glm"
-	saberLength	45
-	saberRadius 1.5
+	saberLength	100
+	saberRadius 2.7
 	soundOn		"sound\Kane\saberon.mp3"
 	soundLoop	"sound\Kane\saberhum.mp3"
 	soundOff	"sound\Kane\saberoff.mp3"
@@ -977,7 +977,7 @@ saber_corvax
 	saberType	SABER_SINGLE
 	saberModel  "models/weapons2/saber_plasma/saber_corvax.glm"
 	saberLength 45
-	saberRadius 1.5
+	saberRadius 2.7
 	saberColor  random
 	soundOn		"sound/weapons/lotrsound/draw1.mp3"
 	soundOff	"sound/weapons/lotrsound/off.mp3"
@@ -1004,8 +1004,8 @@ single_8
 	name		"^4Vacuum Cleaner"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/saber_jss/saber_jss.glm"
-	saberRadius 1.5
-	saberLength	45
+	saberRadius 2.7
+	saberLength	100
 	soundOn		"sound/weapons/vacuum/saberon.mp3"
 	soundLoop	"sound/weapons/vacuum/saberhum.mp3"
 	soundOff	"sound/weapons/vacuum/saberoff.wav"
