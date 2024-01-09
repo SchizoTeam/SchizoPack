@@ -21,6 +21,7 @@ saber_qu_rahn
 	bounceSound1    "sound/weapons/Dragon/bounce1.mp3"
 	bounceSound2    "sound/weapons/Dragon/bounce2.mp3"
 	bounceSound3    "sound/weapons/Dragon/bounce3.mp3"
+	isOpenMode	1
 }
 
 saber_petro
@@ -46,6 +47,7 @@ saber_petro
 	bounceSound1    "sound/weapons/Hermit/bounce1.mp3"
 	bounceSound2    "sound/weapons/Hermit/bounce2.mp3"
 	bounceSound3    "sound/weapons/Hermit/bounce3.mp3"
+	isOpenMode	1
 }
 
 
@@ -76,7 +78,7 @@ saber_tiin
 	blockSound1	"sound/Power/saberblock1.mp3"
 	blockSound2	"sound/Power/saberblock2.mp3"
 	blockSound3	"sound/Power/saberblock3.mp3"
-
+	isOpenMode	1
 }
 
 saber_sariss
@@ -106,6 +108,7 @@ saber_sariss
     bounceSound1 "sound\Hurricane\saberbounce1.wav"
 	  bounceSound2 "sound\Hurricane\saberbounce2.wav"
 	    bounceSound3 "sound\Hurricane\saberbounce3.wav"
+		isOpenMode	1
 }
 
 single_4
@@ -134,6 +137,7 @@ single_4
 	  bounceSound2 "sound\Kane\saberbounce2.wav"
 	    bounceSound3 "sound\Kane\saberbounce3.wav"
 	saberColor	random
+	isOpenMode	1
 }
 
 saber_corvax
@@ -163,6 +167,7 @@ saber_corvax
 	bounceSound1	"sound/weapons/swordss/bounce1.mp3"
 	bounceSound2	"sound/weapons/swordss/bounce2.mp3"
 	bounceSound3	"sound/weapons/swordss/bounce3.mp3"
+	isOpenMode	1
 }
 
 
