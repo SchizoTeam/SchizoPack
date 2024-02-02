@@ -1,0 +1,4 @@
+Hue and Saturation:
+
+Lightness: -35
+Saturation: -40

@@ -1,0 +1,13 @@
+head_cap_torso_off,models/players/stormtrooper/caps.tga
+heada,models/players/xeby_dark_marek/head.tga
+hood_down,*off
+hood,models/players/xeby_dark_marek/hood
+heada_face,*off
+heada_teeth,*off
+headc,*off
+headc_face,*off
+headc_teeth,models/players/xeby_dark_marek/teeth.tga
+headb,*off
+headb_face,models/players/xeby_dark_marek/face.tga
+headb_teeth,*off
+headb_bang,*off

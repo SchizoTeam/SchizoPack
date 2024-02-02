@@ -1,0 +1,6 @@
+*white
+{
+setcvar ui_char_color_red 255
+setcvar ui_char_color_green 255
+setcvar ui_char_color_blue 255
+}

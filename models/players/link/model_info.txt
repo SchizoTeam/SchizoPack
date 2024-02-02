@@ -1,0 +1,53 @@
+Information file for model 'model.glm'
+
+
+GLM Header info:
+
+->ident:             1296518194
+->version:           6
+->name:              model.glm
+->animName:          models/players/_humanoid/_humanoid
+->animIndex:         ( only used by game, but defaulted to 0 )
+->numBones:          53
+->numLODs:           1
+->ofsLODs:           14904
+->numSurfaces:       97
+->ofsSurfHierarchy:  552
+->ofsEnd:            314848  ( also gives overall filesize )
+
+
+Shader Info:
+
+10 unique shaders used, list follows:
+[nomaterial]
+armor.psd
+models/players/link/accessories_oot.png
+models/players/link/armor.jpg
+models/players/link/face.jpg
+models/players/link/head.jpg
+models/players/link/legs_oot.png
+models/players/link/mouth_eyes.jpg
+models/players/link/parts.png
+models/players/stormtrooper/caps.tga
+
+Rendering Info:
+
+17 surfaces out of 97 default to OFF
+49 surfaces out of 97 are tags only
+...therefore default rendered surface total = 31
+
+LOD 0/1:
+{
+Total Verts:                 5450
+Total Tris :                 6408
+Unique Bone Refs:            47
+
+Default rendered Verts:      5128
+Default rendered Tris:       6218
+Default rendered Bone Refs:  47
+Deleted duplicate verts:     1  ( with 1 total bone-weights )
+}
+
+
+
+( Skeleton file not written out by this model, uses file 'models/players/_humanoid/_humanoid.gla' )

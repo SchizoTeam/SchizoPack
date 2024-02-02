@@ -1,0 +1,9 @@
+mouth,*off
+head_face,*off
+mask,models/players/investigator/mask_phantom
+head_back,models/players/investigator/mask_back.tga
+head_hood,*off
+hood_down,*off
+hair,*off
+head_cap_torso_off,models/players/stormtrooper/caps.tga
+torso_cap_head_off,models/players/stormtrooper/caps.tga

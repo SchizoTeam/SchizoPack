@@ -1,0 +1,8 @@
+head,models/players/stonecold/a1_torso.png
+headb,models/players/stonecold/head.png
+headb_face,models/players/stonecold/face.png
+headb_eyes_mouth,models/players/stonecold/face_mouth_eyes.png
+hat,*off
+head_cap_torso_off,models/players/stormtrooper/caps.tga
+torso_cap_head_off,models/players/stormtrooper/caps.tga
+torso_cap_hips_off,models/players/stormtrooper/caps.tga

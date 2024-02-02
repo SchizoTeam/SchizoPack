@@ -1,0 +1,10 @@
+hipsa,models/players/stonecold/c1_legs.png
+l_lega,models/players/stonecold/a1_boots_hips.png
+l_lega_cap_hips_off,models/players/stormtrooper/caps.tga
+r_lega,models/players/stonecold/a1_boots_hips.png
+r_lega_cap_hips_off,models/players/stormtrooper/caps.tga
+hipsa_cap_r_leg_off,models/players/stormtrooper/caps.tga
+hipsa_cap_l_leg_off,models/players/stormtrooper/caps.tga
+kneebrace_l,models/players/stonecold/kneebrace.png
+kneebrace_r,models/players/stonecold/kneebrace.png
+hips_cap_torso_off,models/players/stormtrooper/caps.tga

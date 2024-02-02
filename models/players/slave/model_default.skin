@@ -1,0 +1,16 @@
+heada,models/players/slave/head_slave.tga
+eyes,models/players/slave/eyes_slave.tga
+ears,models/players/slave/slave_ears.tga
+r_hand,models/players/slave/hand_slave.tga
+l_hand,models/players/slave/hand_slave.tga
+r_hand_wrist,models/players/slave/torso_slave.tga
+r_arm,models/players/slave/torso_slave.tga
+torso_r_shoulder,models/players/slave/torso_slave.tga
+l_hand_wrist,models/players/slave/torso_slave.tga
+l_arm,models/players/slave/torso_slave.tga
+torso_l_shoulder,models/players/slave/torso_slave.tga
+torso,models/players/slave/torso_slave.tga
+hips_torso,models/players/slave/torso_slave.tga
+hips,models/players/slave/hips_slave.tga
+r_leg,models/players/slave/boots_slave.tga
+l_leg,models/players/slave/boots_slave.tga

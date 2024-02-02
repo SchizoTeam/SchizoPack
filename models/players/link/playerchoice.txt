@@ -1,0 +1,43 @@
+//colorshadername	{action block}
+
+models/players/link/green
+{
+	setcvar			ui_char_color_red 0
+	setcvar			ui_char_color_green 156
+	setcvar			ui_char_color_blue 0
+}
+
+models/players/link/red
+{
+	setcvar			ui_char_color_red 156
+	setcvar			ui_char_color_green 0
+	setcvar			ui_char_color_blue 0
+}
+
+models/players/link/blue
+{
+	setcvar			ui_char_color_red 0
+	setcvar			ui_char_color_green 64
+	setcvar			ui_char_color_blue 156
+}
+
+models/players/link/purple
+{
+	setcvar			ui_char_color_red 127
+	setcvar			ui_char_color_green 0
+	setcvar			ui_char_color_blue 127
+}
+
+models/players/link/blue_green
+{
+	setcvar			ui_char_color_red 0
+	setcvar			ui_char_color_green 156
+	setcvar			ui_char_color_blue 156
+}
+
+*white
+{
+	setcvar			ui_char_color_red 192
+	setcvar			ui_char_color_green 192
+	setcvar			ui_char_color_blue 192
+}

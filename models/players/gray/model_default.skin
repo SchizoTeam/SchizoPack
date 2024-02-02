@@ -1,0 +1,11 @@
+head1,*off
+head2,models/players/gray/head.tga
+head3,*off
+eyes,models/players/gray/eyes.tga
+torso,models/players/gray/torso.tga
+r_hand,models/players/gray/hands.tga
+l_hand,models/players/gray/hands.tga
+hips_torso,models/players/gray/belt.tga
+hips,models/players/gray/hips.tga
+r_leg,models/players/gray/boots.tga
+l_leg,models/players/gray/boots.tga

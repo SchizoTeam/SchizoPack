@@ -1,0 +1,16 @@
+robe,models/players/investigator/robe_white.png
+hips,models/players/investigator/robe_white.tga
+hips_torso,models/players/investigator/torso_4.tga
+l_leg,models/players/investigator/forc_boots_hips.tga
+r_leg,models/players/investigator/forc_boots_hips.tga
+reborn_robe,*off
+
+
+
+
+
+
+
+
+l_leg_cap_hips_off,models/players/stormtrooper/caps.tga
+r_leg_cap_hips_off,models/players/stormtrooper/caps.tga
