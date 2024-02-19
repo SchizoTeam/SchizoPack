@@ -70,7 +70,7 @@ saber_tiin
 	SaberRadius 1.5
 	
 	saberlength2	15
-	saberradius2	1
+	saberradius2	0.5
 	noManualDeactivate2	1
 	trailstyle2		2
     isOpenMode	1

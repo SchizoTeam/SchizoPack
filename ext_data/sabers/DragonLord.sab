@@ -7,11 +7,12 @@ saber_darksaber3
 	soundOn		"sound/weapons/DragonLord/saberon.wav"
 	soundLoop	"sound/weapons/saber/saberhum4.wav"
 	soundOff	"sound/weapons/saber/saberoff.wav"
-	saberLength	100
 	saberColor	random
 	numblades	2
 	noManualDeactivate 1
 	damageScale 0.5
 	damageScale2 0.5
+	saberLength	45
+	saberLength2 45
 	isOpenMode 1
 }
