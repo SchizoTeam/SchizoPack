@@ -1,0 +1,13 @@
+
+saber_adi
+{
+	name		"^1suitcase"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/suitcase/suitsaber.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberLength	100
+	saberColor	random
+	isOpenMode 1
+}

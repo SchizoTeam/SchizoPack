@@ -1,0 +1,15 @@
+saber_aayla2
+{
+	name		"^1Beasttamer"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/w_varac/w_varac.glm"
+	soundOn		"sound/weapons/varac/saberonquick.wav"
+	soundLoop	"sound/weapons/varac/saberhum4.wav"
+	soundOff	"sound/weapons/varac/saberoff.wav"
+	numBlades	2
+	saberLength	40
+	saberLength2	5
+	saberRadius2	1
+	noManualDeactivate	1
+	isOpenMode 1
+}

@@ -1,0 +1,24 @@
+single_105
+{
+	name		"^1Vanargand"
+	saberType	SABER_single
+	saberModel	"models/weapons2/twin_wolves/vanargand.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberColor	random
+	isOpenMode  1
+}
+
+single_1
+{
+	name		"^1Manegarm"
+	saberType	SABER_single
+	saberModel	"models/weapons2/twin_wolves/manegarm.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	saberColor	random
+	isOpenmode 1
+}
+

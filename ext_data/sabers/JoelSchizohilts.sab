@@ -4,7 +4,7 @@ saber_qu_rahn
 	saberType	SABER_SINGLE
 	saberColor	random
 	saberLength	100
-	saberRadius 2.7
+	saberRadius 1.5
 	saberModel	"models/weapons2/saber_nxsw_purpdrag/saber_he.glm"
 	soundOn		"sound/weapons/Dragon/saberon.mp3"
 	soundLoop	"sound/weapons/Dragon/saberhum.mp3"
@@ -30,7 +30,7 @@ saber_petro
 	saberType	SABER_SINGLE
 	saberColor	random
 	saberLength	100
-	saberRadius 2.7
+	saberRadius 1.5
 	saberModel	"models/weapons2/saber_nxsw_hermappl/saber_ha.glm"
     soundOn		"sound/weapons/Hermit/saberon.mp3"
 	soundLoop	"sound/weapons/Hermit/saberhum.mp3"
@@ -66,7 +66,8 @@ saber_tiin
 	blockSound2   "sound\Sabers\Joel\Hit2.mp3"
 	blockSound3    "sound\Sabers\Joel\Hit2.mp3"
 	numblades	2
-	saberLength	100
+	saberLength	40
+	SaberRadius 1.5
 	
 	saberlength2	15
 	saberradius2	1
@@ -81,7 +82,7 @@ saber_sariss
 	saberType	SABER_SINGLE
 	saberColor	random
 	saberLength	100
-	saberRadius 2.7
+	saberRadius 1.5
 	saberModel	"models/weapons2/saber_nxsw_stubhurr/saber_sh.glm"
 	soundOn		"sound\Hurricane\saberon.mp3"
 	soundLoop	"sound\Hurricane\saberhum.mp3"
@@ -130,8 +131,8 @@ saber_corvax
 	name		"^1Sword ^0of Slave Knight ^1Gael"
 	saberType	SABER_SINGLE
 	saberModel  "models/weapons2/saber_plasma/saber_corvax.glm"
-	saberLength 45
-	saberRadius 2.7
+	saberLength 100
+	saberRadius 1.5
 	saberColor  random
 	soundOn		"sound/weapons/lotrsound/draw1.mp3"
 	soundOff	"sound/weapons/lotrsound/off.mp3"

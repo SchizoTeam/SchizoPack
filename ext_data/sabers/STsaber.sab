@@ -1,0 +1,14 @@
+intimidate
+{
+	name		"^1Stormtrooper Saber"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/troopersaber/tsaber.glm"
+	soundOn		"sound/weapons/saber/saberon.wav"
+	soundLoop	"sound/weapons/saber/saberhum4.wav"
+	soundOff	                "sound/weapons/saber/saberoff.wav"
+	saberLength	100
+	saberColor	red
+	isOpenMode 1
+}
+
+

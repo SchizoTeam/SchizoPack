@@ -1,0 +1,41 @@
+//made by AshuraDX
+single_7
+{
+	name		"Murasama"
+	saberType	SABER_Single
+	saberModel	"models/weapons2/Murasama/Murasama.glm"
+	soundOn		sound\weapons\sword\draw1.mp3
+	soundOff	sound\weapons\sword\null
+	soundLoop	none
+	saberLength	40
+	saberColor	red
+
+        noWallMarks 0
+        noBlade 1
+        noClashFlare 1
+        trailStyle 2
+        noDlight 1
+
+	swingSound1	sound\weapons\sword\swing1.mp3
+	swingSound2	sound\weapons\sword\swing2.mp3
+	swingSound3	sound\weapons\sword\swing3.mp3
+	spinSound	sound\weapons\sword\swing4.mp3
+
+	fallSound1	sound\weapons\sword\fall1.mp3
+	fallSound2	sound\weapons\sword\fall2.mp3
+	fallSound3	sound\weapons\sword\fall3.mp3
+
+	hitSound1	sound\weapons\sword\stab1.mp3
+	hitSound2	sound\weapons\sword\stab2.mp3
+	hitSound3	sound\weapons\sword\stab3.mp3
+
+	blockSound1	sound\weapons\swordfall6.mp3
+	blockSound2	sound\weapons\swordfall5.mp3
+	blockSound3	sound\weapons\swordfall6.mp3
+
+	bounceSound1	sound\weapons\sword\fall6.mp3
+	bounceSound2	sound\weapons\sword\fall5.mp3
+	bounceSound3	sound\weapons\sword\fall6.mp3
+	isOpenmode   1
+}
+
