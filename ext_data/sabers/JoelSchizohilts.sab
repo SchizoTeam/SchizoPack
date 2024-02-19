@@ -55,30 +55,24 @@ saber_tiin
 {
 	name		"^0Joel's^1Schizo^7Terrorist^0Saber"
 	saberType	SABER_SINGLE
-	saberColor	random
+	saberModel	"models/weapons2/jc_glory/glory_hp.glm"
+	soundOn		"sound\Sabers\Joel\Ignition.mp3"
+	soundLoop	"sound\Sabers\Joel\hum.mp3"
+	soundOff	"sound\Sabers\Joel\off1.mp3"
+	swingSound1 "sound\Sabers\Joel\swing1.mp3"
+    swingSound2 "sound\Sabers\Joel\swing2.mp3"
+	swingSound3 "sound\Sabers\Joel\swing5.mp3"
+	blockSound1   "sound\Sabers\Joel\Hit1.mp3"
+	blockSound2   "sound\Sabers\Joel\Hit2.mp3"
+	blockSound3    "sound\Sabers\Joel\Hit2.mp3"
+	numblades	2
 	saberLength	100
-	saberRadius 2.7
-	saberModel	"models/weapons2/saber_nxsw_internalpower/saber_ip.glm"
-	soundOn		"sound/Power/saberon.mp3"
-	soundOff	"sound/Power/saberoff.mp3"
-	soundLoop	"sound/Power/saberhum6.mp3"
-
-	swingSound1	"sound/Power/saberhup1.mp3"
-	swingSound2	"sound/Power/saberhup6.mp3"
-	swingSound3	"sound/Power/saberhup9.mp3"
 	
-	hitSound1	"sound/Power/saberhit1.mp3"
-	hitSound2	"sound/Power/saberhit1.mp3"
-	hitSound3	"sound/Power/saberhit1.mp3"
-
-	bounceSound1	"sound/Power/saberbounce1.mp3"
-	bounceSound2	"sound/Power/saberbounce2.mp3"
-	bounceSound3	"sound/Power/saberbounce3.mp3"
-
-	blockSound1	"sound/Power/saberblock1.mp3"
-	blockSound2	"sound/Power/saberblock2.mp3"
-	blockSound3	"sound/Power/saberblock3.mp3"
-	isOpenMode	1
+	saberlength2	15
+	saberradius2	1
+	noManualDeactivate2	1
+	trailstyle2		2
+    isOpenMode	1
 }
 
 saber_sariss
@@ -113,30 +107,21 @@ saber_sariss
 
 single_4
 {
-	name		"^0Karus's^2Cracksaber"
+	name		"^1Karus' AFK Mastery"
 	saberType	SABER_SINGLE
-	saberModel	"models/weapons2/kane_if/saber.glm"
+	saberModel	"models/weapons2/purgatory_if/purgatory.glm"
+	soundOn		"sound\weapons\purgatory_if\Ignition.mp3"
+	soundLoop	"sound\weapons\purgatory_if\Hum.mp3"
+	soundOff	"sound\weapons\purgatory_if\saberoff.mp3"
+	blockSound1 "sound\weapons\purgatory_if\Clash2"
+	blockSound2 "sound\weapons\purgatory_if\Clash3.mp3"
+	blockSound3 "sound\weapons\purgatory_if\Clash7.mp3"
+	swingSound1 "sound\weapons\purgatory_if\Swing1.mp3"
+	swingSound2 "sound\weapons\purgatory_if\Swing2.mp3"
+	swingSound3 "sound\weapons\purgatory_if\Swing3.mp3"
 	saberLength	100
-	saberRadius 2.7
-	soundOn		"sound\Kane\saberon.mp3"
-	soundLoop	"sound\Kane\saberhum.mp3"
-	soundOff	"sound\Kane\saberoff.mp3"
-	swingSound1	"sound\Kane\saberhup1.mp3"
-	swingSound2	"sound\Kane\saberhup2.mp3"
-	swingSound3	"sound\Kane\saberhup3.mp3"
-   
-    blockSound1     "sound\Kane\saberblock1.mp3"
-    blockSound2     "sound\Kane\saberblock2.mp3"
-    blockSound3     "sound\Kane\saberblock3.mp3"
-	
-	hitSound1  "sound\Kane\hit1.mp3"
-	hitSound2  "sound\Kane\hit2.mp3"
-	hitSound3  "sound\Kane\hit3.mp3"
-
-    bounceSound1 "sound\Kane\saberbounce1.wav"
-	  bounceSound2 "sound\Kane\saberbounce2.wav"
-	    bounceSound3 "sound\Kane\saberbounce3.wav"
 	saberColor	random
+	saberRadius	1.5
 	isOpenMode	1
 }
 
