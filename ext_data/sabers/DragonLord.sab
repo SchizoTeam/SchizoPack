@@ -12,7 +12,7 @@ saber_darksaber3
 	noManualDeactivate 1
 	damageScale 0.5
 	damageScale2 0.5
-	saberLength	45
-	saberLength2 45
+	saberLength	40
+	saberLength2 40
 	isOpenMode 1
 }
