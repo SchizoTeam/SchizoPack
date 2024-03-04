@@ -1,0 +1,14 @@
+l_arm,models/players/lardlad/Arms.tga
+r_arm,models/players/lardlad/Arms.tga
+
+r_leg,models/players/lardlad/Leg.tga
+l_leg,models/players/lardlad/Leg.tga
+
+torso,models/players/lardlad/Body.tga
+
+head,models/players/lardlad/Face.tga
+lazo,models/players/lardlad/Face.tga
+eyes,models/players/lardlad/Face.tga
+hair,models/players/lardlad/Face.tga
+
+donut,models/players/lardlad/Donut.tga
