@@ -14,10 +14,10 @@ jobs:
       uses: thedoctor0/zip-release@main
       with:
         type: 'zip'
-        filename: 'z_zz_JoelSchizoPack.pk3'
+        filename: 'z_zz_SchizoPack.pk3'
         exclusions: '*.git* /*node_modules/* .editorconfig'
     - name: Upload Release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "z_zz_JoelSchizoPack.pk3"
+        artifacts: "z_zz_SchizoPack.pk3"
         token: ${{ secrets.GITHUB_TOKEN }}
