@@ -1,0 +1,164 @@
+repeatDelay				5
+
+Particle
+{
+	name				nearSmallSparks
+
+	spawnFlags			axisFromSphere
+
+	count				4
+
+	life				300 800
+
+	cullrange			150
+
+	radius				2
+
+	height				2
+
+	velocity			90 -80 -80 120 80 80
+
+	gravity				-250 -450
+
+	size
+	{
+		start			0.4 0.2
+	}
+
+	shaders
+	[
+		gfx/misc/exp02_3
+	]
+}
+
+Particle
+{
+	name				regularSparks
+
+	spawnFlags			axisFromSphere
+
+	count				3 5
+	life				300 800
+
+	radius				2
+
+	velocity			90 -80 -80 150 80 80
+
+	gravity				-250 -450
+
+	rgb
+	{
+		start			1 0.3412 0.01961 0.9098 0.9255 0.03922
+	}
+
+	alpha
+	{
+		end				0
+		parm			40 70
+		flags			nonlinear
+	}
+
+	size
+	{
+		start			0.7 0.4
+	}
+
+	shaders
+	[
+		gfx/misc/exp01_2
+	]
+}
+
+Particle
+{
+	name				smoke
+
+	flags				useAlpha
+
+	spawnFlags			evenDistribution rgbComponentInterpolation
+
+	count				2
+
+	life				500 800
+
+	delay				0 50
+
+	cullrange			450
+
+	rotation			0 360
+
+	rotationDelta		10 0
+
+	velocity			20 -10 -10 30 10 10
+
+	gravity				20 30
+
+	rgb
+	{
+		start			0 0 0
+	}
+
+	alpha
+	{
+		end				0
+		parm			20 60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			5 7
+		end				13 20
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/alpha_smoke
+	]
+}
+
+Particle
+{
+	name				longSmoke
+
+	flags				useAlpha
+
+	spawnFlags			rgbComponentInterpolation
+
+	count				0 1
+
+	life				1600
+
+	rotation			0 360
+
+	rotationDelta		10 0
+
+	velocity			20 -5 -5 20 5 5
+
+	gravity				20
+
+	rgb
+	{
+		start			0 0 0
+	}
+
+	alpha
+	{
+		end				0
+		parm			60
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			5 7
+		end				13 20
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/alpha_smoke
+	]
+}

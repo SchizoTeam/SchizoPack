@@ -1,0 +1,103 @@
+// Bits that fly up and bounce off of architecture
+
+Tail
+{
+	count	30	
+	life	1000	1500
+
+	origin	0 -4 -4	2 4 4
+
+	bounce	0.25	0.3
+
+	vel		180 -80 -80		350 80 80
+	gravity	-200	-600
+
+	size
+	{
+		start 	0.5	1.0
+		end		0.1	0.3
+		parms		40	80
+		flags		linear	nonlinear
+	}
+
+	length
+	{
+		start		9	14
+		end		0.3	1.0
+		flags		linear
+	}
+
+	alpha
+	{
+		flags	random
+	}
+
+	shader
+	[
+		gfx/misc/spark3
+	]
+}
+
+Particle
+{
+	count	30	
+	life	1000	1500
+
+	origin	0 -6 -6	2 6 6
+
+	bounce	0.1	0.25
+
+	vel		80 -90 -90		400 90 90
+	gravity	-200	-600
+
+	size
+	{
+		start 	0.5	1.0
+		end		0.1	0.3
+		parms		40	80
+		flags		linear	nonlinear
+	}
+
+	alpha
+	{
+		flags	random
+	}
+
+	shader
+	[
+		gfx/misc/spark
+	]
+}
+
+Particle
+{
+	count	6
+	life	100	150
+
+	origin	10 -10 -10		30 10 10
+
+	size
+	{
+		start	30.0
+		end 	5.0
+		flags	linear
+	}
+
+	rgb
+	{
+		start	0.5 0.6 1.0
+	}
+
+	alpha
+	{
+		start 0.2
+		end	0.0
+		parms	50
+		flags	linear nonlinear
+	}
+
+	shader
+	[
+		gfx/effects/saberFlare
+	]
+}

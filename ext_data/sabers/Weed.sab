@@ -1,0 +1,15 @@
+saber_draconis
+{
+	name		"^2Weed ^1Powah"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/joint/joint_w.glm"
+	saberRadius 2.7
+	soundOn		"sound/weapons/weed/weedon.mp3"
+	soundLoop	"sound/weapons/weed/weedhum.wav"
+	soundOff	"sound/weapons/weed/weedcrushed.mp3"
+	saberLength	40
+	saberColor	Random
+	returnDamage	1
+	damageScale	2
+	isopenmode 1
+}

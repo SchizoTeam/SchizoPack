@@ -1,0 +1,16 @@
+head,models/players/Salah/Headface.tga
+hair,models/Players/Salah/Headface.tga
+hair1,models/Players/Salah/Headface.tga
+hips1,models/players/Salah/legs.tga
+hips,*off
+torso,models/players/Salah/torso.tga
+torso_l_shoulder,models/players/Salah/torso.tga
+torso_r_shoulder,models/players/Salah/torso.tga
+r_arm,models/players/Salah/torso.tga
+r_hand,models/players/Salah/basic_hand.tga
+r_hand_wrist,models/players/Salah/torso.tga
+l_arm,models/players/Salah/torso.tga
+l_hand,models/players/Salah/basic_hand.tga
+l_hand_wrist,models/players/Salah/torso.tga
+l_leg,models/players/Salah/boots_hips.tga
+r_leg,models/players/Salah/boots_hips1.tga

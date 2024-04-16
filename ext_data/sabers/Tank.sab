@@ -1,0 +1,64 @@
+
+saber_darksaber3
+{
+	name		"Tank"
+	saberType	SABER_SINGLE
+	saberModel	"models/weapons2/Tank/saber_w.glm"
+	soundOn	"sound/effects/null.wav"
+	soundLoop	"sound/effects/null.wav"
+	soundOff	"sound/effects/null.wav"
+	saberstylelearned fast
+	saberstylelearned medium
+	saberstylelearned strong
+	forceRestrict FP_LIGHTNING
+	forceRestrict FP_GRIP
+	forceRestrict FP_SPEED
+	forceRestrict FP_DRAIN
+	forceRestrict FP_PROTECT
+	forceRestrict FP_TELEPATHY
+	forceRestrict FP_SEE 		
+	forceRestrict FP_ABSORB
+	forceRestrict FP_RAGE
+	forceRestrict FP_HEAL
+	forceRestrict FP_PULL	
+	forceRestrict FP_PUSH
+	numBlades	2
+	twohanded	0
+	saberLength 	48
+	saberLength	64
+	saberRadius 6
+	saberLength2	16
+	saberRadius2	4.5
+	throwable		0
+	lockable		0
+	noWallMarks	1
+	noDlight	1
+	noBlade	1
+	noClashFlare 1
+	trailStyle	1
+	spinSound	"sound/weapons/saber/saberspinoff.wav"	
+	swingSound1	"sound/weapons/hammer/swing1.wav"
+	swingSound2	"sound/weapons/hammer/swing2.wav"
+	swingSound3	"sound/weapons/hammer/swing3.wav"
+	hitSound1	"sound/weapons/hammer/slam1.wav"
+	hitSound2	"sound/weapons/hammer/slam2.wav"
+	hitSound3	"sound/weapons/hammer/slam3.wav"
+	blockSound1	"sound/weapons/hammer/block1.wav"
+	blockSound2	"sound/weapons/hammer/block2.wav"
+	blockSound3	"sound/weapons/hammer/block3.wav"
+	bounceSound1	"sound/weapons/hammer/slam1.wav"
+	bounceSound2	"sound/weapons/hammer/slam1.wav"
+	bounceSound3	"sound/weapons/hammer/slam2.wav"
+	blockEffect			"sparks/spark.efx"
+	hitPersonEffect		"sparks/Sword_blood.efx"
+	hitOtherEffect		"sparks/mace_cut.efx"
+	noIdleEffect	1
+	onInWater		1
+	bounceOnWalls	1
+	breakParryBonus	1
+	noDismemberment	1  // adam parcalanmýyor
+	damageScale		2 ///vurus gucu 
+	knockbackScale 	1
+	noManualDeactivate	1
+	isopenmode 1
+}

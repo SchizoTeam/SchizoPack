@@ -1,0 +1,44 @@
+repeatDelay				300
+
+Particle
+{
+	name				flame
+
+	count				0 1
+
+	life				600 300
+
+	delay				650 550
+
+	origin				-7 -10 -9 7 7 7
+
+	rotation			0 360
+
+	velocity			-6 -6 -6 0 0 0
+
+	gravity				-15 45
+
+	rgb
+	{
+		start			1 1 1 0.9765 0.8667 0.5412
+	}
+
+	alpha
+	{
+		end				0
+		parm			100
+		flags			linear nonlinear
+	}
+
+	size
+	{
+		start			0 7
+		end				4 10
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/misc/flame.jpg
+	]
+}

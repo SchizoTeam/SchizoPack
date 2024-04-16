@@ -1,0 +1,17 @@
+head,models/players/ibrahimovic/headface.tga
+face,models/players/ibrahimovic/headface.tga
+hair,models/players/ibrahimovic/headface.tga
+hips1,models/players/ibrahimovic/legs.tga
+hips,*off
+torso,models/players/ibrahimovic/torso_naked.tga
+torso_l_shoulder,models/players/ibrahimovic/torso_naked.tga
+torso_r_shoulder,models/players/ibrahimovic/torso_naked.tga
+r_arm,models/players/ibrahimovic/torso_naked.tga
+r_hand,models/players/ibrahimovic/basic_hand.tga
+r_hand_wrist,models/players/ibrahimovic/torso_naked.tga
+l_arm,models/players/ibrahimovic/torso_naked.tga
+l_hand,models/players/ibrahimovic/basic_hand.tga
+l_hand_wrist,models/players/ibrahimovic/torso_naked.tga
+l_leg,models/players/ibrahimovic/boots_hipsb.tga
+r_leg,models/players/ibrahimovic/boots_hips.tga
+

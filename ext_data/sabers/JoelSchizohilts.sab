@@ -4,7 +4,7 @@ saber_qu_rahn
 	saberType	SABER_SINGLE
 	saberColor	random
 	saberLength	100
-	saberRadius 1.5
+	saberRadius 2
 	saberModel	"models/weapons2/saber_nxsw_purpdrag/saber_he.glm"
 	soundOn		"sound/weapons/Dragon/saberon.mp3"
 	soundLoop	"sound/weapons/Dragon/saberhum.mp3"
@@ -30,7 +30,7 @@ saber_petro
 	saberType	SABER_SINGLE
 	saberColor	random
 	saberLength	100
-	saberRadius 1.5
+	saberRadius 2
 	saberModel	"models/weapons2/saber_nxsw_hermappl/saber_ha.glm"
     soundOn		"sound/weapons/Hermit/saberon.mp3"
 	soundLoop	"sound/weapons/Hermit/saberhum.mp3"
@@ -56,18 +56,9 @@ saber_tiin
 	name		"^0Joel's^1Schizo^7Terrorist^0Saber"
 	saberType	SABER_SINGLE
 	saberModel	"models/weapons2/jc_glory/glory_hp.glm"
-	soundOn		"sound\Sabers\Joel\Ignition.mp3"
-	soundLoop	"sound\Sabers\Joel\hum.mp3"
-	soundOff	"sound\Sabers\Joel\off1.mp3"
-	swingSound1 "sound\Sabers\Joel\swing1.mp3"
-    swingSound2 "sound\Sabers\Joel\swing2.mp3"
-	swingSound3 "sound\Sabers\Joel\swing5.mp3"
-	blockSound1   "sound\Sabers\Joel\Hit1.mp3"
-	blockSound2   "sound\Sabers\Joel\Hit2.mp3"
-	blockSound3    "sound\Sabers\Joel\Hit2.mp3"
 	numblades	2
 	saberLength	40
-	SaberRadius 1.5
+	SaberRadius 2
 	
 	saberlength2	15
 	saberradius2	0.5
@@ -82,7 +73,7 @@ saber_sariss
 	saberType	SABER_SINGLE
 	saberColor	random
 	saberLength	100
-	saberRadius 1.5
+	saberRadius 2
 	saberModel	"models/weapons2/saber_nxsw_stubhurr/saber_sh.glm"
 	soundOn		"sound\Hurricane\saberon.mp3"
 	soundLoop	"sound\Hurricane\saberhum.mp3"
@@ -122,7 +113,7 @@ single_4
 	swingSound3 "sound\weapons\purgatory_if\Swing3.mp3"
 	saberLength	100
 	saberColor	random
-	saberRadius	1.5
+	saberRadius	2
 	isOpenMode	1
 }
 
@@ -132,7 +123,7 @@ saber_corvax
 	saberType	SABER_SINGLE
 	saberModel  "models/weapons2/saber_plasma/saber_corvax.glm"
 	saberLength 100
-	saberRadius 1.5
+	saberRadius 2
 	saberColor  random
 	soundOn		"sound/weapons/lotrsound/draw1.mp3"
 	soundOff	"sound/weapons/lotrsound/off.mp3"
