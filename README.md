@@ -29,7 +29,7 @@ Mandalore: https://jkhub.org/files/file/4148-mandalore-the-ultimate/<br />
 Predator: https://jkhub.org/files/file/4151-gustavopredadors-predator-dark-blade-clan-concrete-jungle-15/<br />
 Daedric: https://jkhub.org/files/file/4130-the-elder-scrolls-v-skyrim-daedric-armor-mod/<br />
 Optimus Prime: https://jkhub.org/files/file/4129-optimus-prime/<br />
-Ghost: https://jkhub.org/files/file/4056-nameless-ghost/<br />
+Dark Ghost: https://jkhub.org/files/file/4056-nameless-ghost/<br />
 Guardian Shell: https://jkhub.org/files/file/4039-guardian-shell/<br />
 Vader Redesign 001: https://jkhub.org/files/file/4037-vader-redesign-001/<br />
 Knight: https://jkhub.org/files/file/4002-knight/<br />
