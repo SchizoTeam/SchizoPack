@@ -1,0 +1,7 @@
+torso,models/players/morgul/body_black.tga
+head,models/players/morgul/body_black.tga
+back,models/players/morgul/body_black.tga
+hair,models/players/morgul/hair_black.tga
+tail,models/players/morgul/tail_black.tga
+head_armour,*off
+armour,*off
