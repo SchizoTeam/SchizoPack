@@ -3,7 +3,7 @@ saber_qu_rahn
 	name		"^4BronzeAgeShitpost"
 	saberType	SABER_SINGLE
 	saberColor	random
-	saberLength	100
+	saberLength	40
 	saberRadius 2
 	saberModel	"models/weapons2/saber_nxsw_purpdrag/saber_he.glm"
 	soundOn		"sound/weapons/Dragon/saberon.mp3"
@@ -29,7 +29,7 @@ saber_petro
 	name		"^2Grass-^0Cutter"
 	saberType	SABER_SINGLE
 	saberColor	random
-	saberLength	100
+	saberLength	40
 	saberRadius 2
 	saberModel	"models/weapons2/saber_nxsw_hermappl/saber_ha.glm"
     soundOn		"sound/weapons/Hermit/saberon.mp3"
@@ -72,7 +72,7 @@ saber_sariss
 	name		"^4DawneZ's^1Outside^0Smoker"
 	saberType	SABER_SINGLE
 	saberColor	random
-	saberLength	100
+	saberLength	40
 	saberRadius 2
 	saberModel	"models/weapons2/saber_nxsw_stubhurr/saber_sh.glm"
 	soundOn		"sound\Hurricane\saberon.mp3"
@@ -111,7 +111,7 @@ single_4
 	swingSound1 "sound\weapons\purgatory_if\Swing1.mp3"
 	swingSound2 "sound\weapons\purgatory_if\Swing2.mp3"
 	swingSound3 "sound\weapons\purgatory_if\Swing3.mp3"
-	saberLength	100
+	saberLength	40
 	saberColor	random
 	saberRadius	2
 	isOpenMode	1
@@ -122,7 +122,7 @@ saber_corvax
 	name		"^1Sword ^0of Slave Knight ^1Gael"
 	saberType	SABER_SINGLE
 	saberModel  "models/weapons2/saber_plasma/saber_corvax.glm"
-	saberLength 100
+	saberLength 40
 	saberRadius 2
 	saberColor  random
 	soundOn		"sound/weapons/lotrsound/draw1.mp3"

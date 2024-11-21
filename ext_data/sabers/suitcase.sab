@@ -7,7 +7,7 @@ saber_adi
 	soundOn		"sound/weapons/saber/saberon.wav"
 	soundLoop	"sound/weapons/saber/saberhum4.wav"
 	soundOff	"sound/weapons/saber/saberoff.wav"
-	saberLength	100
+	saberLength	40
 	saberColor	random
 	isOpenMode 1
 }
