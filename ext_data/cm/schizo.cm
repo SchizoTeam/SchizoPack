@@ -85,6 +85,7 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
 
 
 mb_class_sith
@@ -174,6 +175,9 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
+
+
 
 
 mb_class_soldier
@@ -263,6 +267,7 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
 
 
 mb_class_trooper
@@ -352,6 +357,7 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
 
 
 mb_class_commander
@@ -441,6 +447,7 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
 
 
 mb_class_elitetrooper
@@ -530,6 +537,7 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
 
 
 mb_class_bounty_hunter
@@ -619,6 +627,7 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
 
 
 mb_class_hero
@@ -708,6 +717,7 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
 
 
 mb_class_clonetrooper 
@@ -797,6 +807,7 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
 
 
 mb_class_mandalorian
@@ -886,6 +897,7 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
 
 
 mb_class_arctrooper
@@ -975,6 +987,7 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
 
 
 mb_class_wookie 
@@ -1064,6 +1077,7 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
 
 
 mb_class_sbd
@@ -1153,3 +1167,4 @@ tie_interceptor/default
 speeder_bike_mst/default
 glider/default
 tentacle1/default
+ugnaught/gimli
