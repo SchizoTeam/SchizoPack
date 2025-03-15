@@ -1,0 +1,16 @@
+hips,models/players/max/max.png
+
+r_leg,models/players/max/max.png
+l_leg,models/players/max/max.png
+
+torso,models/players/max/max.png
+
+r_arm,models/players/max/max.png
+r_hand,models/players/max/max.png
+
+l_arm,models/players/max/max.png
+l_hand,models/players/max/max.png
+
+head,models/players/max/max.png
+head_eyes_mouth,models/players/max/max.png
+head_ears,models/players/max/max.png

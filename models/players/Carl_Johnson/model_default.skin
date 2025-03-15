@@ -1,0 +1,12 @@
+head,models/players/Carl_Johnson/head.tga
+hips,models/players/Carl_Johnson/legs.tga
+l_arm,models/players/Carl_Johnson/body_upper.tga
+l_hand,models/players/Carl_Johnson/body_upper.tga
+l_leg,models/players/Carl_Johnson/legs.tga
+l_foot,models/players/Carl_Johnson/shoes.tga
+r_arm,models/players/Carl_Johnson/body_upper.tga
+r_hand,models/players/Carl_Johnson/body_upper.tga
+r_leg,models/players/Carl_Johnson/legs.tga
+r_foot,models/players/Carl_Johnson/shoes.tga
+torso,models/players/Carl_Johnson/body_upper.tga
+
