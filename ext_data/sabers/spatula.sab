@@ -1,0 +1,14 @@
+saber_zallow
+{
+	name		"^3S^7pongebob's ^3S^7patula"
+	saberType	SABER_single
+	saberModel	"models/weapons2/spatula/spatula.glm"
+	soundOn		"sound/spatula/saberon.wav"
+	soundLoop	"sound/spatula/saberhum.wav"
+	soundOff	"sound/spatula/saberoff.wav"
+	blockSound1     "sound\spatula\saberblock1.mp3"
+    blockSound2     "sound\spatula\saberblock2.mp3"
+    blockSound3     "sound\spatula\saberblock3.mp3"
+	saberColor	random
+	isOpenMode  1
+}

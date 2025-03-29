@@ -1,0 +1,14 @@
+saber_ki_adi
+{
+	name		"^1M^7r. ^1K^7rabs' ^1S^7wordfish"
+	saberType	SABER_single
+	saberModel	"models/weapons2/swordfish/swordfish.glm"
+	soundOn		"sound/swordfish/saberon.wav"
+	soundLoop	"sound/swordfish/saberhum.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	blockSound1     "sound\swordfish\saberblock1.mp3"
+    blockSound2     "sound\swordfish\saberblock2.mp3"
+    blockSound3     "sound\swordfish\saberblock3.mp3"
+	saberColor	random
+	isOpenMode  1
+}

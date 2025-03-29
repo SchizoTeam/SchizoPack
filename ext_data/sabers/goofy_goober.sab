@@ -1,0 +1,14 @@
+single_9
+{
+	name		"^6G^7oofy ^6G^7oober ^6G^7uitar"
+	saberType	SABER_single
+	saberModel	"models/weapons2/goofy_goober/goofy_goober.glm"
+	soundOn		"sound/gg_guitar/saberon.wav"
+	soundLoop	"sound/gg_guitar/saberhum.wav"
+	soundOff	"sound/weapons/saber/saberoff.wav"
+	blockSound1     "sound\gg_guitar\saberblock1.mp3"
+    blockSound2     "sound\gg_guitar\saberblock2.mp3"
+    blockSound3     "sound\gg_guitar\saberblock3.mp3"
+	saberColor	random
+	isOpenMode  1
+}

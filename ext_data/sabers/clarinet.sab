@@ -1,0 +1,13 @@
+saber_orgus
+{
+	name		"^5S^7quidward's ^5C^7larinet"
+	saberType	SABER_single
+	saberModel	"models/weapons2/clarinet/clarinet.glm"
+	soundOn		"sound/clarinet/saberon.wav"
+	soundLoop	"sound/clarinet/saberhum.wav"
+	soundOff	"sound/clarinet/saberoff.wav"
+	blockSound1     "sound\clarinet\saberblock1.mp3"
+    blockSound2     "sound\clarinet\saberblock2.mp3"
+	saberColor	random
+	isOpenMode  1
+}
