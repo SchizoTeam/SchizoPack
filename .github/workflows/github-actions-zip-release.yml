@@ -21,3 +21,17 @@ jobs:
       with:
         artifacts: "z_zz_SchizoPack.pk3"
         token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Archive Models Release Test
+      uses: thedoctor0/zip-release@main
+      with:
+        type: 'zip'
+        filename: 'z_zz_SchizoPack_Models_Test.pk3'
+        exclusions: '*.git* /*node_modules/* .editorconfig models/players/*'
+    - name: Upload Models Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "z_zz_SchizoPack_Test.pk3"
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+        
