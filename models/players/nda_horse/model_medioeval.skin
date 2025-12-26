@@ -1,0 +1,16 @@
+head_armour,models/players/nda_horse/head_armor.tga
+armour,models/players/nda_horse/Body_armor.tga
+
+torso,models/players/nda_horse/Body_medioeval.tga
+head,models/players/nda_horse/Body_medioeval.tga
+head_hair,models/players/nda_horse/Body_medioeval.tga
+eyes,models/players/nda_horse/eyes.tga
+head_fur,models/players/nda_horse/Body_medioeval.tga
+tail_fur,models/players/nda_horse/Body_medioeval.tga
+l_arm_fur,models/players/nda_horse/Body_medioeval.tga
+r_arm_fur,models/players/nda_horse/Body_medioeval.tga
+r_leg_fur,models/players/nda_horse/Body_medioeval.tga
+l_leg_fur,models/players/nda_horse/Body_medioeval.tga
+mouth,models/players/nda_horse/Body_medioeval.tga
+tail,models/players/nda_horse/Body_medioeval.tga
+tail_fur,models/players/nda_horse/Body_medioeval.tga

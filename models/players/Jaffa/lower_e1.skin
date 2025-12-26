@@ -1,0 +1,10 @@
+parts,models/players/Tealc/Serpentarms.jpg
+buckle,*off
+belt,models/players/Tealc/Serpentarms.jpg
+l_leg,models/players/Tealc/legsSerpent.tga
+r_leg,models/players/Tealc/legsSerpent.tga
+hips,models/players/Tealc/jaffatorso.jpg
+flap,models/players/Tealc/Serpentarmor.jpg
+flapf,models/players/Tealc/serpent.jpg
+flapb,*off
+skirt,models/players/Tealc/serpent.jpg

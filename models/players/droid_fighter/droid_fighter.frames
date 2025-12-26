@@ -1,0 +1,8 @@
+
+c:/base/models/players/droid_fighter/root.xsi
+{
+	"startframe"	"0"
+	"duration"	"31"
+	"fps"	"30"
+	"averagevec"	"0.000 0.000 0.000"
+}

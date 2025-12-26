@@ -1,0 +1,17 @@
+
+head,models/players/hl2metrocop/metrocop_sheet.tga
+head_elite,*off
+head_elite_eyes,*off
+
+hips,models/players/hl2metrocop/metrocop_sheet.tga
+torso,models/players/hl2metrocop/metrocop_sheet.tga
+belt,models/players/hl2metrocop/metrocop_sheet.tga
+
+r_arm,models/players/hl2metrocop/metrocop_sheet.tga
+r_hand,models/players/hl2metrocop/metrocop_sheet.tga
+r_foot,models/players/hl2metrocop/metrocop_sheet.tga
+
+l_arm,models/players/hl2metrocop/metrocop_sheet.tga
+l_hand,models/players/hl2metrocop/metrocop_sheet.tga
+l_foot,models/players/hl2metrocop/metrocop_sheet.tga
+

@@ -1,0 +1,16 @@
+head_armour,*off
+armour,*off
+
+torso,models/players/nda_horse/body.tga
+head_hair,models/players/nda_horse/body.tga
+head,models/players/nda_horse/body.tga
+head_fur,models/players/nda_horse/body.tga
+tail_fur,models/players/nda_horse/body.tga
+eyes,models/players/nda_horse/eyes.tga
+l_arm_fur,models/players/nda_horse/body.tga
+r_arm_fur,models/players/nda_horse/body.tga
+r_leg_fur,models/players/nda_horse/body.tga
+l_leg_fur,models/players/nda_horse/body.tga
+mouth,models/players/nda_horse/body.tga
+tail,models/players/nda_horse/body.tga
+tail_fur,models/players/nda_horse/body.tga

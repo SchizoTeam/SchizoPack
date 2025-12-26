@@ -1,0 +1,15 @@
+
+head,models/players/combinesoldier/shotgunsoldier.tga
+head_elite,*off
+
+hips,models/players/combinesoldier/shotgunsoldier.tga
+hips_extra,models/players/combinesoldier/shotgunsoldier.tga
+torso,models/players/combinesoldier/shotgunsoldier.tga
+collar,models/players/combinesoldier/shotgunsoldier.tga
+r_arm,models/players/combinesoldier/shotgunsoldier.tga
+r_hand,models/players/combinesoldier/shotgunsoldier.tga
+r_foot,models/players/combinesoldier/shotgunsoldier.tga
+l_arm,models/players/combinesoldier/shotgunsoldier.tga
+l_hand,models/players/combinesoldier/shotgunsoldier.tga
+l_foot,models/players/combinesoldier/shotgunsoldier.tga
+

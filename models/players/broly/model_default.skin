@@ -1,0 +1,7 @@
+torso,models/players/broly/body.tga
+head_ssj,*off
+head,models/players/broly/body.tga
+hips,models/players/broly/lower.tga
+l_hand,models/players/broly/hands.tga
+r_hand,models/players/broly/hands.tga
+head_face,models/players/broly/head.tga

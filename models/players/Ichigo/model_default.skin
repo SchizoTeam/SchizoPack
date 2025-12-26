@@ -1,0 +1,7 @@
+head,models/players/Ichigo/head.tga
+r_hand,models/players/Ichigo/hands.tga
+l_hand,models/players/Ichigo/hands.tga
+hips,models/players/Ichigo/body.tga
+zangetsu,models/players/Ichigo/zangetsu.tga
+torso,models/players/Ichigo/body.tga
+torso_sash,models/players/Ichigo/sash.tga

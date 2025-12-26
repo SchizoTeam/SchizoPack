@@ -1,0 +1,4 @@
+$aseanimgrabinit
+$aseanimgrab models/players/droid_fighter/root.xsi -loop -1
+$aseanimgrabfinalize
+$aseanimconvertmdx_noask models/players/droid_fighter/root -makeskel /models/players/droid_fighter/droid_fighter -origin 0 0 24

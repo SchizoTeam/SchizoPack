@@ -1,0 +1,12 @@
+hips,models/players/death/hips.tga
+torso,models/players/death/torso.tga
+l_arm,models/players/death/arm.tga
+l_hand,models/players/death/hand.tga
+r_arm,models/players/death/arm.tga
+r_hand,models/players/death/hand.tga
+head,models/players/death/skull.tga
+head_eyes,models/players/death/*off
+head_floor,models/players/death/head_floor.tga
+head_nose,models/players/death/nose.tga
+head_hood,models/players/death/*off
+head_hood2,models/players/death/hood.tga

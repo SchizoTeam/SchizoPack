@@ -1,0 +1,17 @@
+head,models/players/vincent/head.jpg
+face1,models/players/vincent/face.jpg
+Hair1,models/players/vincent/vinblack.jpg
+head_eyes_mouth,models/players/vincent/mouth_eyes.jpg
+
+torso_cap_head_off,models/players/stormtrooper/caps.jpg
+head_cap_torso_off,models/players/stormtrooper/caps.jpg
+torso_cap_hips_off,models/players/stormtrooper/caps.jpg
+hips_cap_torso_off,models/players/stormtrooper/caps.jpg
+r_leg_cap_hips_off,models/players/stormtrooper/caps.jpg
+l_leg_cap_hips_off,models/players/stormtrooper/caps.jpg
+r_hand_cap_r_arm_off,models/players/stormtrooper/caps.jpg
+l_hand_cap_l_arm_off,models/players/stormtrooper/caps.jpg
+r_arm_cap_torso_off,models/players/stormtrooper/caps.jpg
+torso_cap_r_arm_off,models/players/stormtrooper/caps.jpg
+l_arm_cap_torso_off,models/players/stormtrooper/caps.jpg
+torso_cap_l_arm_off,models/players/stormtrooper/caps.jpg

@@ -1,0 +1,15 @@
+
+head,models/players/combinesoldier/beta2003.tga
+head_elite,*off
+
+hips,models/players/combinesoldier/beta2003.tga
+hips_extra,models/players/combinesoldier/beta2003.tga
+torso,models/players/combinesoldier/beta2003.tga
+collar,models/players/combinesoldier/beta2003.tga
+r_arm,models/players/combinesoldier/beta2003.tga
+r_hand,models/players/combinesoldier/beta2003.tga
+r_foot,models/players/combinesoldier/beta2003.tga
+l_arm,models/players/combinesoldier/beta2003.tga
+l_hand,models/players/combinesoldier/beta2003.tga
+l_foot,models/players/combinesoldier/beta2003.tga
+

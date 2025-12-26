@@ -1,0 +1,15 @@
+
+head,models/players/combinesoldier/novaprospekt.tga
+head_elite,*off
+
+hips,models/players/combinesoldier/novaprospekt.tga
+hips_extra,models/players/combinesoldier/novaprospekt.tga
+torso,models/players/combinesoldier/novaprospekt.tga
+collar,models/players/combinesoldier/novaprospekt.tga
+r_arm,models/players/combinesoldier/novaprospekt.tga
+r_hand,models/players/combinesoldier/novaprospekt.tga
+r_foot,models/players/combinesoldier/novaprospekt.tga
+l_arm,models/players/combinesoldier/novaprospekt.tga
+l_hand,models/players/combinesoldier/novaprospekt.tga
+l_foot,models/players/combinesoldier/novaprospekt.tga
+

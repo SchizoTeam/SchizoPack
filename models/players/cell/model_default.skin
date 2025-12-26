@@ -1,0 +1,4 @@
+hips_legs,models/players/cell/body.tga
+torso,models/players/cell/body.tga
+head,models/players/cell/head.tga
+torso_wings,models/players/cell/head.tga

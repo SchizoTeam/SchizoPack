@@ -1,0 +1,81 @@
+Boga
+{
+	weapon		WP_MELEE
+        customskin      default
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	snd		Boga
+	height		75
+	width		60
+}
+
+Boga_sadle
+{
+	weapon		WP_MELEE
+        customskin      sadle
+	playerTeam	TEAM_NEUTRAL
+	enemyTeam	TEAM_NEUTRAL
+	class		CLASS_VEHICLE
+	snd			Boga
+	height		32
+        scale           300
+	crouchheight 	300
+	width		60
+}
+
+Boga2
+{
+	playerModel Boga
+        customskin      default
+	weapon		WP_MELEE
+        length			128
+	height		32
+        scale           300
+	crouchheight 	300
+	width		60
+	reactions	4
+	aim			1
+	move		5
+	aggression	3
+	evasion		5
+	intelligence	2
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_HOWLER
+	yawSpeed	60
+	runSpeed	300
+	walkSpeed	100
+	hFOV		120
+	vfov		45
+	snd			Boga
+	health		60
+}
+
+Boga_sadle2
+{
+	playerModel Boga
+        customskin      sadle
+	weapon		WP_MELEE
+        length			128
+	height		32
+        scale           300
+	crouchheight 	300
+	width		60
+	reactions	4
+	aim			1
+	move		5
+	aggression	3
+	evasion		5
+	intelligence	2
+	playerTeam	TEAM_PLAYER
+	enemyTeam	TEAM_ENEMY
+	class		CLASS_HOWLER
+	yawSpeed	60
+	runSpeed	300
+	walkSpeed	100
+	hFOV		120
+	vfov		45
+	snd			Boga
+	health		60
+}

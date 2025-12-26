@@ -1,0 +1,14 @@
+body,models/players/Shark/body.tga
+l_fin,models/players/Shark/body.tga
+r_fin,models/players/Shark/body.tga
+gills,models/players/Shark/body.tga
+dorsal_fin,models/players/Shark/body.tga
+tail,models/players/Shark/body.tga
+head,models/players/Shark/body.tga
+eyes,models/players/Shark/eyes.tga
+mouth,models/players/Shark/body.tga
+teeth1,models/players/Shark/teeths.tga
+teeth2,models/players/Shark/teeths.tga
+teeth3,models/players/Shark/teeths.tga
+teeth4,models/players/Shark/teeths.tga
+body2,*off

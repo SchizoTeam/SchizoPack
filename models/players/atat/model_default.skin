@@ -1,0 +1,17 @@
+head,models/players/atat/head.tga
+body,models/players/atat/body.tga
+hips,models/players/atat/body.tga
+rf_leg,models/players/atat/body.tga
+lf_leg,models/players/atat/body.tga
+rb_leg,models/players/atat/body.tga
+lb_leg,models/players/atat/body.tga
+rf_foot,models/players/atat/body.tga
+lf_foot,models/players/atat/body.tga
+rb_foot,models/players/atat/body.tga
+lb_foot,models/players/atat/body.tga
+neck,models/players/atat/head.tga
+turbo_tube,models/players/atat/head.tga
+r_laser,models/players/atat/head.tga
+l_laser,models/players/atat/head.tga
+r_turbo_gun,models/players/atat/head.tga
+l_turbo_gun,models/players/atat/head.tga
