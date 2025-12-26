@@ -1,7 +1,0 @@
-{
-name		"BobbleMaul"
-model		bobblemaul
-saber1		"dual_4"
-color1		0
-personality	/botfiles/maulvm.jkb
-}
