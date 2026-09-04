@@ -1,0 +1,14 @@
+head_cap_torso_off,models/players/pWinterSoldier_FR/caps.png
+head,models/players/pWinterSoldier_FR/head.tga
+head_face,models/players/pWinterSoldier_FR/head.tga
+head_eyes,models/players/pWinterSoldier_FR/head.tga
+eyelashes,models/players/pWinterSoldier_FR/head.tga
+
+head_mask,models/players/pWinterSoldier_FR/mask.tga
+
+head_goggles,models/players/pWinterSoldier_FR/extras.tga
+head_hair,models/players/pWinterSoldier_FR/extras.tga
+head_hair2,models/players/pWinterSoldier_FR/extras.tga
+head_hair3,models/players/pWinterSoldier_FR/extras.tga
+
+torso_hood,*off

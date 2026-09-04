@@ -1,0 +1,11 @@
+hips_belt,models/players/pBatman_Beyond2/hips.tga
+hips_pouches,models/players/pBatman_Beyond2/hips.tga
+hips,models/players/pBatman_Beyond2/hips.tga
+r_leg,models/players/pBatman_Beyond2/hips.tga
+l_leg,models/players/pBatman_Beyond2/hips.tga
+
+hips_cap_l_leg_off,models/players/pBatman_Beyond2/caps.tga
+hips_cap_r_leg_off,models/players/pBatman_Beyond2/caps.tga
+hips_cap_torso_off,models/players/pBatman_Beyond2/caps.tga
+r_leg_cap_hips_off,models/players/pBatman_Beyond2/caps.tga
+l_leg_cap_hips_off,models/players/pBatman_Beyond2/caps.tga

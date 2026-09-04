@@ -1,0 +1,17 @@
+head_cap_torso_off,models/players/pFlash_OOT/caps.png
+
+torso_cap_head_off,models/players/pFlash_OOT/caps.png
+torso_cap_r_arm_off,models/players/pFlash_OOT/caps.png
+torso_cap_l_arm_off,models/players/pFlash_OOT/caps.png
+r_arm_cap_torso_off,models/players/pFlash_OOT/caps.png
+l_arm_cap_torso_off,models/players/pFlash_OOT/caps.png
+r_arm_cap_r_hand_off,models/players/pFlash_OOT/caps.png
+l_arm_cap_l_hand_off,models/players/pFlash_OOT/caps.png
+l_hand_cap_l_arm_off,models/players/pFlash_OOT/caps.png
+r_hand_cap_r_arm_off,models/players/pFlash_OOT/caps.png
+
+hips_cap_torso_off,models/players/pFlash_OOT/caps.png
+hips_cap_l_leg_off,models/players/pFlash_OOT/caps.png
+hips_cap_r_leg_off,models/players/pFlash_OOT/caps.png
+l_leg_cap_hips_off,models/players/pFlash_OOT/caps.png
+r_leg_cap_hips_off,models/players/pFlash_OOT/caps.png

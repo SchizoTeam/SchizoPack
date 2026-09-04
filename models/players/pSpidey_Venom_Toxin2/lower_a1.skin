@@ -1,0 +1,9 @@
+hips,models/players/pSpidey_Venom_Toxin2/body.tga
+l_leg,models/players/pSpidey_Venom_Toxin2/body.tga
+r_leg,models/players/pSpidey_Venom_Toxin2/body.tga
+
+hips_cap_torso_off,models/players/pSpidey_Venom_Toxin2/caps.png
+hips_cap_l_leg_off,models/players/pSpidey_Venom_Toxin2/caps.png
+hips_cap_r_leg_off,models/players/pSpidey_Venom_Toxin2/caps.png
+l_leg_cap_hips_off,models/players/pSpidey_Venom_Toxin2/caps.png
+r_leg_cap_hips_off,models/players/pSpidey_Venom_Toxin2/caps.png

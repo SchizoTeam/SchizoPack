@@ -1,0 +1,16 @@
+hips_armor,models/players/pDeathstroke_v2/armor.tga
+r_leg_armor,models/players/pDeathstroke_v2/armor.tga
+l_leg_armor,models/players/pDeathstroke_v2/armor.tga
+
+hips_gun,models/players/pDeathstroke_v2/gun.tga
+
+hips_belt,models/players/pDeathstroke_v2/body.tga
+hips,models/players/pDeathstroke_v2/body.tga
+l_leg,models/players/pDeathstroke_v2/body.tga
+r_leg,models/players/pDeathstroke_v2/body.tga
+
+hips_cap_torso_off,models/players/pDeathstroke_v2/caps.png
+hips_cap_l_leg_off,models/players/pDeathstroke_v2/caps.png
+hips_cap_r_leg_off,models/players/pDeathstroke_v2/caps.png
+l_leg_cap_hips_off,models/players/pDeathstroke_v2/caps.png
+r_leg_cap_hips_off,models/players/pDeathstroke_v2/caps.png

@@ -1,0 +1,12 @@
+hips_belt,models/players/pBatman_Armored/body.tga
+hips_pouches,models/players/pBatman_Armored/body.tga
+hips_armor,models/players/pBatman_Armored/body.tga
+hips,models/players/pBatman_Armored/body.tga
+l_leg,models/players/pBatman_Armored/body.tga
+r_leg,models/players/pBatman_Armored/body.tga
+
+hips_cap_torso_off,models/players/pBatman_Armored/caps.png
+hips_cap_l_leg_off,models/players/pBatman_Armored/caps.png
+hips_cap_r_leg_off,models/players/pBatman_Armored/caps.png
+l_leg_cap_hips_off,models/players/pBatman_Armored/caps.png
+r_leg_cap_hips_off,models/players/pBatman_Armored/caps.png

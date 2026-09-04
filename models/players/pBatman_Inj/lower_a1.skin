@@ -1,0 +1,13 @@
+hips_belt,models/players/pBatman_Inj/body.tga
+hips,models/players/pBatman_Inj/body.tga
+l_leg,models/players/pBatman_Inj/body.tga
+l_shoe,models/players/pBatman_Inj/body.tga
+r_leg,models/players/pBatman_Inj/body.tga
+r_shoe,models/players/pBatman_Inj/body.tga
+
+
+hips_cap_torso_off,models/players/pBatman_Inj/caps.tga
+hips_cap_l_leg_off,models/players/pBatman_Inj/caps.tga
+hips_cap_r_leg_off,models/players/pBatman_Inj/caps.tga
+r_leg_cap_hips_off,models/players/pBatman_Inj/caps.tga
+l_leg_cap_hips_off,models/players/pBatman_Inj/caps.tga

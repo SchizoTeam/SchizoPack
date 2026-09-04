@@ -1,0 +1,5 @@
+head_cap_torso_off,models/players/pBatman_Armor/caps.png
+head,models/players/pBatman_Armor/body.tga
+head_face,models/players/pBatman_Armor/body.tga
+head_eyes,models/players/pBatman_Armor/body.tga
+head_eyes_glow,models/players/pBatman_Armor/eyes_glow.tga

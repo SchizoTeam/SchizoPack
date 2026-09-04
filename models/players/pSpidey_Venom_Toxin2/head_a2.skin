@@ -1,0 +1,10 @@
+head_cap_body_off,models/players/pSpidey_Venom_Toxin2/caps.png
+head,models/players/pSpidey_Venom_Toxin2/body.tga
+
+head_eyes,models/players/pSpidey_Venom_Toxin2/mouth.tga
+
+head_tongue,*off
+head_teeth_upper,models/players/pSpidey_Venom_Toxin2/body.tga
+head_teeth_lower,models/players/pSpidey_Venom_Toxin2/body.tga
+head_tongue2,*off
+head_eyes,*off
