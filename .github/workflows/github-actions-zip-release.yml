@@ -24,20 +24,17 @@ jobs:
         run: |
           set -e
 
+          rm -rf build current
           mkdir -p build
           mkdir -p current
 
-          # Keep each PK3 comfortably below GitHub's 2 GiB limit.
           MAX_SIZE=$((1800 * 1024 * 1024))
 
           part=1
           current_size=0
 
           while IFS= read -r -d '' file; do
-
-            # Remove the leading "./"
             relative="${file#./}"
-
             size=$(stat -c%s "$file")
 
             if [ "$size" -gt "$MAX_SIZE" ]; then
@@ -45,10 +42,7 @@ jobs:
               exit 1
             fi
 
-            # Start a new PK3 if this file would make the current
-            # one too large.
             if [ $((current_size + size)) -gt "$MAX_SIZE" ] && [ "$current_size" -gt 0 ]; then
-
               echo "Creating part $(printf '%02d' "$part")..."
 
               (
@@ -63,7 +57,6 @@ jobs:
               current_size=0
             fi
 
-            # Copy file while preserving its directory structure.
             mkdir -p "current/$(dirname "$relative")"
             cp "$file" "current/$relative"
 
@@ -75,32 +68,27 @@ jobs:
               ! -path './.git/*' \
               ! -path './.github/*' \
               ! -path './build/*' \
+              ! -path './current/*' \
               -print0
           )
 
-          # Create final PK3.
           if [ "$current_size" -gt 0 ]; then
-
             echo "Creating final part $(printf '%02d' "$part")..."
 
             (
               cd current
               zip -0 -r "../build/z_zz_SchizoPack_$(printf '%02d' "$part").pk3" .
             )
-
           fi
 
           echo ""
-          echo "=============================="
           echo "Created PK3 files:"
-          echo "=============================="
-
           ls -lh build/
 
       - name: Verify PK3 sizes
         shell: bash
         run: |
-          MAX_SIZE=$((2147483647))
+          MAX_SIZE=2147483647
 
           for file in build/*.pk3; do
             size=$(stat -c%s "$file")
