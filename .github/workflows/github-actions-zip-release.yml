@@ -1,23 +1,104 @@
-name: Create Archive
+name: Create PK3 Release
+
 on:
   push:
-    branches:    
-      - main
-    tags:        
+    tags:
       - '*'
+
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@master
-    - name: Archive Release
-      uses: thedoctor0/zip-release@main
-      with:
-        type: 'zip'
-        filename: 'z_zz_SchizoPack.pk3'
-        exclusions: '*.git* /*node_modules/* .editorconfig'
-    - name: Upload Release
-      uses: ncipollo/release-action@v1
-      with:
-        artifacts: "z_zz_SchizoPack.pk3"
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install tools
+        run: sudo apt-get update && sudo apt-get install -y zip
+
+      - name: Build split PK3s
+        shell: bash
+        run: |
+          set -e
+
+          mkdir -p build
+
+          # Maximum size for each PK3.
+          # 1.8 GiB keeps us safely below GitHub's 2 GiB asset limit.
+          MAX_SIZE=$((1800 * 1024 * 1024))
+
+          # Temporary directory containing the files that will go
+          # into the current PK3.
+          mkdir -p current
+
+          part=1
+          current_size=0
+
+          # Add every file in the repository, excluding GitHub/workflow
+          # files and the build directory.
+          while IFS= read -r -d '' file; do
+            size=$(stat -c%s "$file")
+
+            # If one individual file is larger than the limit,
+            # stop instead of creating an invalid release.
+            if [ "$size" -gt "$MAX_SIZE" ]; then
+              echo "ERROR: $file is larger than the maximum PK3 size."
+              exit 1
+            fi
+
+            # If adding this file would exceed the limit,
+            # create the current PK3 first.
+            if [ $((current_size + size)) -gt "$MAX_SIZE" ] && [ "$current_size" -gt 0 ]; then
+              echo "Creating part $part..."
+
+              (
+                cd current
+                zip -0 -r "../build/z_zz_SchizoPack_$(printf '%02d' "$part").pk3" .
+              )
+
+              rm -rf current
+              mkdir current
+
+              part=$((part + 1))
+              current_size=0
+            fi
+
+            # Preserve the repository's directory structure.
+            mkdir -p "current/$(dirname "$file")"
+            cp "$file" "current/$file"
+
+            current_size=$((current_size + size))
+
+          done < <(
+            find . \
+              -type f \
+              ! -path './.git/*' \
+              ! -path './.github/*' \
+              ! -path './build/*' \
+              -print0
+          )
+
+          # Create the final PK3.
+          if [ "$current_size" -gt 0 ]; then
+            echo "Creating part $part..."
+
+            (
+              cd current
+              zip -0 -r "../build/z_zz_SchizoPack_$(printf '%02d' "$part").pk3" .
+            )
+          fi
+
+          echo ""
+          echo "Created PK3 files:"
+          ls -lh build/
+
+      - name: Upload Release
+        uses: ncipollo/release-action@v1.21.0
+        with:
+          artifacts: 'build/*.pk3'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          allowUpdates: true
+          replacesArtifacts: true
