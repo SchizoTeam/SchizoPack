@@ -25,34 +25,31 @@ jobs:
           set -e
 
           mkdir -p build
-
-          # Maximum size for each PK3.
-          # 1.8 GiB keeps us safely below GitHub's 2 GiB asset limit.
-          MAX_SIZE=$((1800 * 1024 * 1024))
-
-          # Temporary directory containing the files that will go
-          # into the current PK3.
           mkdir -p current
+
+          # Keep each PK3 comfortably below GitHub's 2 GiB limit.
+          MAX_SIZE=$((1800 * 1024 * 1024))
 
           part=1
           current_size=0
 
-          # Add every file in the repository, excluding GitHub/workflow
-          # files and the build directory.
           while IFS= read -r -d '' file; do
+
+            # Remove the leading "./"
+            relative="${file#./}"
+
             size=$(stat -c%s "$file")
 
-            # If one individual file is larger than the limit,
-            # stop instead of creating an invalid release.
             if [ "$size" -gt "$MAX_SIZE" ]; then
-              echo "ERROR: $file is larger than the maximum PK3 size."
+              echo "ERROR: $relative is larger than the maximum PK3 size."
               exit 1
             fi
 
-            # If adding this file would exceed the limit,
-            # create the current PK3 first.
+            # Start a new PK3 if this file would make the current
+            # one too large.
             if [ $((current_size + size)) -gt "$MAX_SIZE" ] && [ "$current_size" -gt 0 ]; then
-              echo "Creating part $part..."
+
+              echo "Creating part $(printf '%02d' "$part")..."
 
               (
                 cd current
@@ -60,15 +57,15 @@ jobs:
               )
 
               rm -rf current
-              mkdir current
+              mkdir -p current
 
               part=$((part + 1))
               current_size=0
             fi
 
-            # Preserve the repository's directory structure.
-            mkdir -p "current/$(dirname "$file")"
-            cp "$file" "current/$file"
+            # Copy file while preserving its directory structure.
+            mkdir -p "current/$(dirname "$relative")"
+            cp "$file" "current/$relative"
 
             current_size=$((current_size + size))
 
@@ -81,19 +78,40 @@ jobs:
               -print0
           )
 
-          # Create the final PK3.
+          # Create final PK3.
           if [ "$current_size" -gt 0 ]; then
-            echo "Creating part $part..."
+
+            echo "Creating final part $(printf '%02d' "$part")..."
 
             (
               cd current
               zip -0 -r "../build/z_zz_SchizoPack_$(printf '%02d' "$part").pk3" .
             )
+
           fi
 
           echo ""
+          echo "=============================="
           echo "Created PK3 files:"
+          echo "=============================="
+
           ls -lh build/
+
+      - name: Verify PK3 sizes
+        shell: bash
+        run: |
+          MAX_SIZE=$((2147483647))
+
+          for file in build/*.pk3; do
+            size=$(stat -c%s "$file")
+
+            echo "$file: $size bytes"
+
+            if [ "$size" -ge "$MAX_SIZE" ]; then
+              echo "ERROR: $file is too large for GitHub Releases."
+              exit 1
+            fi
+          done
 
       - name: Upload Release
         uses: ncipollo/release-action@v1.21.0
